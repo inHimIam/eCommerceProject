@@ -15,14 +15,19 @@ var auth = jwt({
 // Controller
 var profileCtrl = require('../controllers/profile');
 var authCtrl = require('../controllers/authentication');
+var productCtrl = require('../controllers/product');
 
 //Routes
 
 // profile
 router.get('/profile', auth, profileCtrl.read);
 
+// product
+router.post('/product', productCtrl.create);
+
 // authentication
 router.post('/register', authCtrl.register);
 router.post('/login', authCtrl.login);
+
 
 module.exports = router;

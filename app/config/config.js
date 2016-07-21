@@ -8,6 +8,6 @@ module.exports = {
     secret: 'mySecret'
   },
   db: {
-    uri: 'mongodb://localhost/auth'
+    uri: 'mongodb://localhost/ecommerce_project'
   }
 };
