@@ -24,6 +24,8 @@ router.get('/profile', auth, profileCtrl.read);
 
 // product
 router.post('/product', productCtrl.create);
+router.get('/product/:productId', productCtrl.read);
+router.put('/product/:productId', productCtrl.update);
 
 // authentication
 router.post('/register', authCtrl.register);

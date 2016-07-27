@@ -14,6 +14,32 @@ function create(req, res) {
     });
 }
 
-module.exports = {
-    create: create
+function read(req, res) {
+    Product
+        .findOne({_id: req.params.productId})
+        .exec(function(err, product){
+            if (err) {
+                res.status(500).send(err);
+            } else {
+                res.json(product);
+            }
+        });
 }
+
+function update(req, res) {
+    Product
+        .findByIdAndUpdate(req.params.productId, req.body, function(err, product){
+            if (err) {
+                res.status(500).send(err);
+            } else {
+                res.json(product);
+            }
+        });
+}
+
+module.exports = {
+    create: create,
+    read: read,
+    update: update,
+    delete: destroy
+};

@@ -3,7 +3,7 @@
   "description": "Tutorial for authentication using the MEAN stack",
   "main": "index.js",
   "authors": [
-    "Philipp Schulte"
+    "Justin Bryant"
   ],
   "license": "MIT",
   "keywords": [
@@ -11,7 +11,7 @@
     "passport",
     "jwt"
   ],
-  "homepage": "https://github.com/philippschulte/meanStackAuth",
+  "homepage": "",
   "dependencies": {
     "angular": "1.5.7",
     "angular-route": "1.5.7",

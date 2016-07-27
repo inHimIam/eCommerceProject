@@ -16,7 +16,7 @@
     "passport",
     "jwt"
   ],
-  "author": "Philipp Schulte",
+  "author": "Justin Bryant",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/philippschulte/meanStackAuth/issues"
