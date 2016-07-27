@@ -26,6 +26,7 @@ router.get('/profile', auth, profileCtrl.read);
 router.post('/product', productCtrl.create);
 router.get('/product/:productId', productCtrl.read);
 router.put('/product/:productId', productCtrl.update);
+router.delete('/product/:productId', productCtrl.delete);
 
 // authentication
 router.post('/register', authCtrl.register);

@@ -37,6 +37,17 @@ function update(req, res) {
         });
 }
 
+function destroy(req, res) {
+    Product
+        .findByIdAndRemove(req.params.productId, function(err, product){
+            if (err) {
+                res.status(500).send(err);
+            } else {
+                res.json(product)
+            }
+        });
+}
+
 module.exports = {
     create: create,
     read: read,
