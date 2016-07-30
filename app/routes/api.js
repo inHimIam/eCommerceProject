@@ -28,6 +28,21 @@ router.get('/product/:productId', productCtrl.read);
 router.put('/product/:productId', productCtrl.update);
 router.delete('/product/:productId', productCtrl.delete);
 
+
+var isAdmin = function (req, res, next) {
+  console.log(req.user);
+  if (req.user && req.user.admin) {
+    next();
+  } else {
+    res.sendStatus(403);
+  }
+}
+
+var tester = function(req, res) { res.send('passed'); }
+
+// admin
+router.get('/requests', isAdmin, tester);
+
 // authentication
 router.post('/register', authCtrl.register);
 router.post('/login', authCtrl.login);

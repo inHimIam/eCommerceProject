@@ -53,6 +53,7 @@ function login(req, res) {
 
     // If a user is found
     if(user){
+      req.user = user
       token = user.generateJwt();
       res.status(200);
       res.json({

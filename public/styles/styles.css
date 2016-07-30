@@ -13,9 +13,8 @@ body {
 @media (max-width: 800px) {}
         
 /*aside-left and logo begin*/
-header {
-    background-color: #696969;
-    border-radius: 26%;
+#navbar {
+    
     height: 40px;
     width: 55%;
     margin: 0 auto;
