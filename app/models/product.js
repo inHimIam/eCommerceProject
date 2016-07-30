@@ -4,25 +4,37 @@
 var mongoose = require( 'mongoose' );
 
 var productSchema = new mongoose.Schema({
-    Title: 
+    ArtType: 
     {
         type: String,
         unique: true,
         required: true,
         index: true
     },
+
     Description: 
     {
         type: String,
         required: true
     },
+
     Price: 
     {
         type: Number,
         required: true,
         minimum: 0
-
     },
+
+    NumberCharacters: {
+        type: Number,
+        min: 0
+    },
+
+    Background: {
+        type: String,
+        enum: ['No-background', 'Simple-background', 'complex background']
+    },
+
     Image: 
     {
         url: String

@@ -1,0 +1,40 @@
+<navigation></navigation>
+
+<div class="container">
+  <div class="page-header">
+    <h2>Submit a Commission</h2>
+  </div>
+
+<!--some code here to populate price as user makes changes-->
+  <p>Price</p> 
+
+  <form ng-submit="vm.onSubmit()">
+    <div class="form-group"> 
+      <!--will link art example url/s for selected art type and populate a base price in designated field-->
+      <label for="ArtType">Art Type</label>
+      <input type="text" class="form-control" placeholder="Select an Art Type" ng-model="artType" required>
+    </div>
+    <div class="form-group" id="description">
+      <label for="Description">Describe your Commission</label>
+      <input type="text" class="form-control" placeholder="briefly describe what I could draw for you" ng-model="com-description" required>
+    </div>
+    <div class="form-group">
+      <!--will change price field and populate an example url of an artwork-->
+      <label for="NumberCharacters"></label>
+      <input type="number" class="form-control" placeholder="" ng-model="characters" required>
+    </div>
+    <div class="form-group" >
+      <label for="Background">Select a background option</label>
+      <input type="range" class="form-control" placeholder="Background" ng-model="background-choice" required>
+    </div>
+    <div class="form-group">
+      <label for="Price"> This is the current Price</label>
+      <input type="number" class="form-control" placeholder="will have a dependent price here" ng-model="est-price" required>
+  <h4>* this price is an estimate only</h4>
+    </div>
+    <button type="submit" class="btn btn-info">Submit</button>
+  </form>
+  <div>
+    <!--this field will populate the Artwork examples based upon selected criteria above-->
+  </div>
+</div>

@@ -1,0 +1,158 @@
+/* {
+     background-color: darkgreen;
+}*/
+body {
+    /*background:#c3bdae;*/
+    background: url(https://photos-2.dropbox.com/t/2/AADR6qZx_L0CcuWxqcBoP1aczNWuUPONTfqfw5PZux2KdQ/12/537224311/jpeg/32x32/1/_/1/2/the_seer_by_sicilianvalkyrie.jpg/ENzj4rAEGI8DIAIoAg/Qo8ZbQv5QkruUVOpiGhfqZyTeqbyCzpYeqaHmaqGcPo?size=1024x768&size_mode=3) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+}
+@media (max-width: 800px) {}
+        
+/*aside-left and logo begin*/
+header {
+    background-color: #696969;
+    border-radius: 26%;
+    height: 40px;
+    width: 55%;
+    margin: 0 auto;
+    position: absolute;
+    top: 8px;
+    left: 21%;
+    color: white;
+    text-align: center;
+    padding-top: 12;
+}
+
+#logo {
+    padding: 1,1,1,1 px; 
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    
+}
+/*.divider {
+    margin-top: 1px;
+    padding: 0;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 1;
+    right: -154px;
+}/*heading and logo end*/
+
+/* navigation bar begin*/
+
+.left-aside {
+    float: left;
+    width: 20%;
+    margin: 0 1.5%;
+    line-height: 6;
+}    
+.left-aside a{
+    text-decoration: none;
+    color: white;
+}
+.artist {
+}
+.contact {
+}
+
+.art {
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}/*navigation bar end*/
+
+/*For button navigation drop-down menu on navbar
+ works on click using chrome but nothing at all shows in safari*/
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #696969;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-decoration: none;
+    border: solid 1px;
+    
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropbtn:hover {
+    background-color: black;
+}
+.dropdown:hover + .dropdown-content {
+    display: block;
+}
+
+.dropbtn:focus + .dropdown-content {
+    display: block;
+    
+}/* end button navigation on navbar */
+
+/* begin divs for personal artwork*/
+.right-aside {
+  
+  float: right;
+  width: 15%;
+  margin: 0 1.5%;
+  }
+
+.pic-thumb img{
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 0;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+#voddom {
+    border: solid white;
+    float: right;
+    
+}
+#the-seer {
+    border: solid white;
+    float: right;
+}
+#elfa-copic {
+    background-color: white;
+    float: right;
+    border: solid black;
+}
+
+#dark_elf {
+    border: solid white;
+    left: 100px;
+    float: right
+}
+
+#shimon {
+    border: solid white;
+    left: 100px;
+    float: right;
+}
+/*end divs for personal artwork/*

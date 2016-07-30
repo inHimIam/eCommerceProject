@@ -24,6 +24,11 @@
         controller: 'profileCtrl',
         controllerAs: 'vm'
       })
+      .when('/pricing', {
+        templateUrl: './views/pricing.html',
+        controller: 'pricingCtrl',
+        controllerAs: 'vm'
+      })
       .otherwise({redirectTo: '/'});
   }
 
