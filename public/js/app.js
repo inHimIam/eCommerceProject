@@ -29,6 +29,11 @@
         controller: 'pricingCtrl',
         controllerAs: 'vm'
       })
+      // .when('admin', {
+      //   templateUrl: './public/js/directives/admin/adminTemplate.html',
+      //   controller: 'adminController',
+      //   controllerAs: 'vm'
+      // })
       .otherwise({redirectTo: '/'});
   }
 
