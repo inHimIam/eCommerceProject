@@ -1,6 +1,6 @@
 (function () {
 
-  angular.module('meanApp', ['ngRoute']);
+  angular.module('artistApp', ['ngRoute']);
 
   function config ($routeProvider, $locationProvider) {
     $routeProvider
@@ -29,11 +29,11 @@
         controller: 'pricingCtrl',
         controllerAs: 'vm'
       })
-      // .when('admin', {
-      //   templateUrl: './public/js/directives/admin/adminTemplate.html',
-      //   controller: 'adminController',
-      //   controllerAs: 'vm'
-      // })
+      .when('/admin', {
+        templateUrl: './public/views/admin/adminManager.html',
+        controller: 'adminController',
+        controllerAs: 'vm'
+      })
       .otherwise({redirectTo: '/'});
   }
 
@@ -46,7 +46,7 @@
   }
 
   angular
-    .module('meanApp')
+    .module('artistApp')
     .config(['$routeProvider', '$locationProvider', config])
     .run(['$rootScope', '$location', 'authentication', run]);
 

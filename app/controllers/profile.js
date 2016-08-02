@@ -16,7 +16,18 @@ function read(req, res) {
       });
   }
 }
+function destroy(req, res) {
+  User
+    .findByIdAndRemove(req.params.userId, function(err, user){
+      if (err) {
+        res.status(500).send(err);
+      } else {
+        res.json(user);
+      }
+    });
+  }
 
 module.exports = {
+  delete: destroy,
   read: read
 };

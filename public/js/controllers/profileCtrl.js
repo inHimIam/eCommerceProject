@@ -1,7 +1,7 @@
 (function() {
 
   angular
-    .module('meanApp')
+    .module('artistApp')
     .controller('profileCtrl', profileCtrl);
 
   profileCtrl.$inject = ['$location', 'profile'];

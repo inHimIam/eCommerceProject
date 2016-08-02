@@ -27,7 +27,8 @@ var productSchema = new mongoose.Schema({
 
     NumberCharacters: {
         type: Number,
-        min: 0
+        min: 0,
+        max: 5
     },
 
     Background: {

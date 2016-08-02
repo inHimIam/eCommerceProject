@@ -1,7 +1,7 @@
 (function () {
 
   angular
-    .module('meanApp')
+    .module('artistApp')
     .factory('authentication', authentication);
 
   authentication.$inject = ['$http', '$window'];

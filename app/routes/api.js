@@ -21,6 +21,7 @@ var productCtrl = require('../controllers/product');
 
 // profile
 router.get('/profile', auth, profileCtrl.read);
+router.delete('/profile/:userId', profileCtrl.delete)
 
 // product
 router.post('/product', productCtrl.create);
@@ -46,7 +47,6 @@ router.get('/requests', isAdmin, tester);
 // authentication
 router.post('/register', authCtrl.register);
 router.post('/login', authCtrl.login);
-
 
 
 

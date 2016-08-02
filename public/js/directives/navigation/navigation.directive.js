@@ -1,7 +1,7 @@
 (function () {
 
   angular
-    .module('meanApp')
+    .module('artistApp')
     .directive('navigation', navigation);
 
   function navigation () {
