@@ -1,7 +1,7 @@
 (function() {
 
   angular
-    .module('meanApp')
+    .module('artistApp')
     .service('profile', profile);
 
   profile.$inject = ['$http', 'authentication'];
