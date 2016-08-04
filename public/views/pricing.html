@@ -12,24 +12,28 @@
     <div class="form-group"> 
       <!--will link art example url/s for selected art type and populate a base price in designated field-->
       <label for="ArtType">Art Type</label>
-      <input type="text" class="form-control" placeholder="Select an Art Type" ng-model="artType" required>
+      <input type="text" class="form-control" placeholder="Select an Art Type" ng-model="vm.newCommission.artType" required>
     </div>
-    <div class="form-group" id="description">
+    <div class="form-group">
       <label for="Description">Describe your Commission</label>
-      <input type="text" class="form-control" placeholder="briefly describe what I could draw for you" ng-model="com-description" required>
+      <input type="text" class="form-control" id="description" placeholder="briefly describe what I could draw for you" ng-model="vm.newCommission.description" required>
     </div>
     <div class="form-group">
       <!--will change price field and populate an example url of an artwork-->
       <label for="NumberCharacters">How many Characters</label>
-      <input type="number" class="form-control" placeholder="" ng-model="characters" required>
+      <input type="number" class="form-control" placeholder="" ng-model="vm.newCommission.characters" required>
     </div>
     <div class="form-group" >
       <label for="Background">Select a background option</label>
-      <input type="range" class="form-control" placeholder="Background" ng-model="background-choice" required>
+      <select ng-model="vm.newCommission.background" class="selectpicker">
+        <option>No-background</option>
+        <option>Simple-backgroundp</option>
+        <option>Complex-background</option>
+      </select>
     </div>
     <div class="form-group">
       <label for="Price"> This is the current Price</label>
-      <input type="number" class="form-control" placeholder="will have a dependent price here" ng-model="est-price" required>
+      <input type="number" class="form-control" placeholder="will have a dependent price here" ng-model="vm.newCommission.estPrice" required>
   <h4>* this price is an estimate only</h4>
     </div>
     <button type="submit" class="btn btn-info">Submit</button>
@@ -37,4 +41,5 @@
   <div>
     <!--this field will populate the Artwork examples based upon selected criteria above-->
   </div>
+  <h2>Feel free to contact me with any additional details jcarlbryan@yahoo.com</h2>
 </div>
