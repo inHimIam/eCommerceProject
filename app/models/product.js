@@ -18,13 +18,6 @@ var productSchema = new mongoose.Schema({
         required: true
     },
 
-    Price: 
-    {
-        type: Number,
-        required: true,
-        minimum: 0
-    },
-
     NumberCharacters: {
         type: Number,
         min: 0,
@@ -36,7 +29,7 @@ var productSchema = new mongoose.Schema({
         enum: ['No-background', 'Simple-background', 'Complex-background']
     },
 
-    Image: 
+    ExampleImage: 
     {
         url: String
     }

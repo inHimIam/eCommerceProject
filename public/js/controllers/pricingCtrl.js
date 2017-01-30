@@ -9,22 +9,22 @@
         var vm = this;
 
         vm.newCommission = {
-            artType: "",
-            description: "",
-            characters: "",
-            background: "No-background",
-            estPrice: ""
+            ArtType: "",
+            Description: "",
+            NumberCharacters: "",
+            Background: ["No-background", "Simple-background", "Complex-background"],
+            ExampleImage: ""
         };
 
         vm.onSubmit = function() {
             console.log('submitting your data');
             pricingService
-                .pricing(vm.newCommission)
+                .getCommission(vm.newCommission)
                 .error(function(err){
                     alert(err);
                 })
-                .then(function() {
-                    $location.path('profile');
+                .then(function(res) {
+                    console.log('res', res);
                 });
         };
     }

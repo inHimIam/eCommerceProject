@@ -10,8 +10,9 @@
 
 
     getCommission = function(submissionRequest) {
-      return $http.post('/api/register', submissionRequest).success(function(data){
-        saveToken(data.token);
+        console.log('service invoked');
+      return $http.post('/api/product/', submissionRequest).success(function(data){
+          return data;
       });
     };
 

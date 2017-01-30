@@ -4,6 +4,7 @@
 var Product = require('../models/product');
 
 function create(req, res) {
+    console.log('req.body: ', req.body);
     var newProduct = new Product(req.body);
     newProduct.save(function(err, product) {
         if (err) {

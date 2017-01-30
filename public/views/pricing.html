@@ -7,33 +7,34 @@
 
 <!--some code here to populate price as user makes changes-->
   <p>Price</p> 
+    
 
   <form ng-submit="vm.onSubmit()">
-    <div class="form-group"> 
       <!--will link art example url/s for selected art type and populate a base price in designated field-->
+      <div class="form-group">
       <label for="ArtType">Art Type</label>
-      <input type="text" class="form-control" placeholder="Select an Art Type" ng-model="vm.newCommission.artType" required>
+      <input type="text" class="form-control" placeholder="Select an Art Type" ng-model="vm.newCommission.ArtType" required>
     </div>
     <div class="form-group">
       <label for="Description">Describe your Commission</label>
-      <input type="text" class="form-control" id="description" placeholder="briefly describe what I could draw for you" ng-model="vm.newCommission.description" required>
+      <input type="text" class="form-control" id="description" placeholder="briefly describe what I could draw for you" ng-model="vm.newCommission.Description" required>
     </div>
     <div class="form-group">
       <!--will change price field and populate an example url of an artwork-->
       <label for="NumberCharacters">How many Characters</label>
-      <input type="number" class="form-control" placeholder="" ng-model="vm.newCommission.characters" required>
+      <input type="number" class="form-control" placeholder="" ng-model="vm.newCommission.NumberCharacters">
     </div>
     <div class="form-group" >
       <label for="Background">Select a background option</label>
-      <select ng-model="vm.newCommission.background" class="selectpicker">
+      <select ng-model="vm.newCommission.Background" class="selectpicker">
         <option>No-background</option>
-        <option>Simple-backgroundp</option>
+        <option>Simple-background</option>
         <option>Complex-background</option>
       </select>
     </div>
     <div class="form-group">
-      <label for="Price"> This is the current Price</label>
-      <input type="number" class="form-control" placeholder="will have a dependent price here" ng-model="vm.newCommission.estPrice" required>
+      <label for="UploadExample"> Upload an example image</label>
+      <input type="text" class="form-control" placeholder="upload an example image here" ng-model="vm.newCommission.ExampleImage">
   <h4>* this price is an estimate only</h4>
     </div>
     <button type="submit" class="btn btn-info">Submit</button>
