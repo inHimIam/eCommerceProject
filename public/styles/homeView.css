@@ -155,4 +155,11 @@ li a:hover:not(.active) {
     left: 100px;
     float: right;
 }
+.navbar-brand img{
+width: 70px;
+height: 50px;
+position: absolute;
+top: 0px;
+left: 4px;
+}
 /*end divs for personal artwork/*
