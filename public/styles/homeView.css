@@ -28,7 +28,10 @@ header {
 }
 .welcome {
     text-align: center;
-    top: 1px;
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    right: 0px;
 }
 /* navigation bar begin*/
 
@@ -62,6 +65,11 @@ li a:hover:not(.active) {
   margin: 0 1.5%;
   }
 
+/*Carosuel*/
+.vertical-carosuel {
+    float: right;
+}
+
 .pic-thumb img{
   background: black;
   display: flex;
@@ -72,6 +80,7 @@ li a:hover:not(.active) {
   height: 100px;
   padding: 5px;
 }
+
 #voddom {
     border: solid white;
     float: right;
