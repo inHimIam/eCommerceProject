@@ -23,6 +23,7 @@ left: 4px;
 }
 
 #description {
+    vertical-align: text-top;
     height: 100px;
 }
 select.selectpicker {

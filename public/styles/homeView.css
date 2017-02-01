@@ -2,8 +2,8 @@
      background-color: darkgreen;
 }*/
 body {
-    /*background:#c3bdae;*/
-    background: url(https://photos-2.dropbox.com/t/2/AADR6qZx_L0CcuWxqcBoP1aczNWuUPONTfqfw5PZux2KdQ/12/537224311/jpeg/32x32/1/_/1/2/the_seer_by_sicilianvalkyrie.jpg/ENzj4rAEGI8DIAIoAg/Qo8ZbQv5QkruUVOpiGhfqZyTeqbyCzpYeqaHmaqGcPo?size=1024x768&size_mode=3) center no-repeat;
+    background:#c3bdae;
+    background: url(../Images/Commissions/by_sicilianvalkyrie:1.jpg) center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,15 +26,10 @@ header {
     text-align: center;
     padding-top: 12;
 }
-
-#logo {
-    padding: 1,1,1,1 px;
-    position: absolute;
+.welcome {
+    text-align: center;
     top: 1px;
-    right: 1px;
-
 }
-
 /* navigation bar begin*/
 
 .left-aside {
