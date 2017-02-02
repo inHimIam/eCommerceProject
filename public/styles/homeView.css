@@ -68,6 +68,8 @@ li a:hover:not(.active) {
 /*Carosuel*/
 .vertical-carousel {
     float: right;
+    margin-right: 40px;
+    margin-top: 20px;
 }
 
 .pic-thumb img{
@@ -76,6 +78,7 @@ li a:hover:not(.active) {
   flex-direction: column;
   justify-content: space-around;
   margin-left: 0;
+  margin-bottom: 4px;
   width: 100px;
   height: 100px;
   padding: 5px;

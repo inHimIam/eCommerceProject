@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $('.your-class').slick({
-    setting-name: setting-value
+  $('.vertical-carousel').slick({
+    accessibility: true,
+    slidesToShow: 2
   });
 });
