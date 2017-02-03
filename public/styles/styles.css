@@ -1,12 +1,27 @@
 body {
-    /*background:#c3bdae;*/
-    background: url(https://photos-2.dropbox.com/t/2/AADR6qZx_L0CcuWxqcBoP1aczNWuUPONTfqfw5PZux2KdQ/12/537224311/jpeg/32x32/1/_/1/2/the_seer_by_sicilianvalkyrie.jpg/ENzj4rAEGI8DIAIoAg/Qo8ZbQv5QkruUVOpiGhfqZyTeqbyCzpYeqaHmaqGcPo?size=1024x768&size_mode=3) center no-repeat;
+    /*background: url(https://photos-2.dropbox.com/t/2/AADR6qZx_L0CcuWxqcBoP1aczNWuUPONTfqfw5PZux2KdQ/12/537224311/jpeg/32x32/1/_/1/2/the_seer_by_sicilianvalkyrie.jpg/ENzj4rAEGI8DIAIoAg/Qo8ZbQv5QkruUVOpiGhfqZyTeqbyCzpYeqaHmaqGcPo?size=1024x768&size_mode=3) center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: top;
-    color: white;
+    color: white;*/
+}
+.main {
+    position: absolute;
+    background: #333;
+    left: 0;
+    top: 60px;
+    padding: 190px;
+    z-index: -1;
+    padding-left: 180px;
+    padding-top: 145px;
+    height: 1691px;
+    right: 0px;
+}
+.main img {
+        vertical-align: middle;
+    width: 920px;
 }
 #navbar {
     width: 1200px;

@@ -2,17 +2,17 @@
      background-color: darkgreen;
 }*/
 body {
-    background:#c3bdae;
+    /*background:#c3bdae;
     background: url(../Images/Commissions/by_sicilianvalkyrie:1.jpg) center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: top;
+    background-position: top;*/
 }
 @media (max-width: 800px) {}
 
-/*aside-left and logo begin*/
+/* navigation bar begin*/
 header {
     background-color: #696969;
     border-radius: 26%;
@@ -29,22 +29,16 @@ header {
 .welcome {
     text-align: center;
     position: absolute;
-    top: 51px;
-    left: 0px;
-    right: 0px;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    margin-top: 10px;
+    margin-left: 134px;
+    margin-right: 134px;
+    color: whitesmoke;
 }
-/* navigation bar begin*/
 
-.left-aside {
-    float: left;
-    width: 20%;
-    margin: 0 1.5%;
-    line-height: 6;
-}
-.left-aside a{
-    text-decoration: none;
-    color: white;
-}
+
 .artist {
 }
 .contact {
@@ -58,20 +52,20 @@ li a:hover:not(.active) {
 }
 
 /* begin divs for personal artwork*/
-.right-aside {
-
-  float: right;
-  width: 15%;
-  margin: 0 1.5%;
-  }
-
 /*Carosuel*/
 .vertical-carousel {
-    float: right;
-    margin-right: 40px;
-    margin-top: 20px;
+    display: inline-flex;
+    position: absolute;
+    top: 70px;
+    right: 34%;
+    border: 1px solid goldenrod;
+    padding: 8px;
+    background: url();
+    border-radius: 12px;
 }
-
+.pic-thumb {
+    padding: 2px;
+}
 .pic-thumb img{
   background: black;
   display: flex;
@@ -82,33 +76,6 @@ li a:hover:not(.active) {
   width: 100px;
   height: 100px;
   padding: 5px;
-}
-
-#voddom {
-    border: solid white;
-    float: right;
-
-}
-#the-seer {
-    border: solid white;
-    float: right;
-}
-#elfa-copic {
-    background-color: white;
-    float: right;
-    border: solid black;
-}
-
-#dark_elf {
-    border: solid white;
-    left: 100px;
-    float: right
-}
-
-#shimon {
-    border: solid white;
-    left: 100px;
-    float: right;
 }
 
 /*end divs for personal artwork/*
