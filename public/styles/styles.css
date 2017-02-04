@@ -7,19 +7,16 @@ body {
     background-position: top;
     color: white;*/
 }
-@media (max-width: 800px) {}
-
-
 
 #navbar {
     width: 1200px;
 }
 .navbar-brand img{
-    width: 70px;
-    height: 50px;
-    position: absolute;
-    top: 0px;
-    left: 4px;
+width: 70px;
+height: 50px;
+position: absolute;
+top: 0px;
+left: 4px;
 }
 
 @media (max-width: 800px) {}

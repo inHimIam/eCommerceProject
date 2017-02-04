@@ -48,9 +48,9 @@ header {
     padding: 4px 8px 4px;;
     color: black
 }
+/*want to have the above hidden when this unfolds over the top of it*/
 .art-type-dropdown {
-    color: transparent;
-    display: inline-flex;
+    display: none;
     position: absolute;
     top: 20%;
     left: 37.4%;
@@ -101,7 +101,7 @@ li a:hover:not(.active) {
 
 .page-header {
     padding: 0px;
-    margin: 55px 0px 0px;
+    margin: 75px 0px 0px;
     border-bottom: 1px solid #eee;
 }
 /*Carosuel*/
