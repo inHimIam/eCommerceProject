@@ -1,15 +1,4 @@
-/* {
-     background-color: darkgreen;
-}*/
-body {
-    /*background:#c3bdae;
-    background: url(../Images/Commissions/by_sicilianvalkyrie:1.jpg) center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: top;*/
-}
+body {}
 @media (max-width: 800px) {}
 
 /* navigation bar begin*/
@@ -50,6 +39,7 @@ in the carousel when clicked to replace images in carousel with images in clicke
     padding: 4px 8px 4px;;
     color: black
 }
+/*Art Type button */
 /*want to have the above hidden when this unfolds over the top of it works but only bexause it IS ontop of it*/
 .art-type-dropdown {
     margin-top: 0px;
