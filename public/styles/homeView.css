@@ -88,18 +88,12 @@ header {
 .open > .art-type-dropdown {
     display: flex;
 }
-.artist {
-}
-.contact {
-}
-
-.art {
-}
 
 li a:hover:not(.active) {
     background-color: #c3bdae;
     border-radius: 3px;
 }
+/*to have the curently selected img to replace current main img*/
 .pic-thumb img:hover:is(.active){
     background: url("../Images/Commissions/by_sicilianvalkyrie:1.jpg")
 }
@@ -112,7 +106,6 @@ li a:hover:not(.active) {
     z-index: -1;
     padding-left: 180px;
     padding-top: 145px;
-    right: 0px;
 }
 .main img {
     background: url("../Images/Commissions/by_sicilianvalkyrie:3.jpg");
@@ -122,7 +115,9 @@ li a:hover:not(.active) {
     border: 3px solid black;
     border-radius: 12px;
 }
+.current-img {
 
+}
 .menu {}
 
 .page-header {
@@ -153,4 +148,11 @@ li a:hover:not(.active) {
   padding: 5px;
 }
 
-/*end divs for personal artwork/*
+/*classes to build on later perhaps/*
+.artist {
+}
+.contact {
+}
+
+.art {
+}
