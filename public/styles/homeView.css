@@ -38,7 +38,8 @@ header {
     color: whitesmoke;
     /*#c3bdae*/
 }
-
+/*want to make these on hover provide a sampling of images contained within (commissions, comics, personal etc.) 
+in the carousel when clicked to replace images in carousel with images in clicked file and update current main img*/
 .art-type {
     position: absolute;
     top: 65px;
@@ -49,7 +50,7 @@ header {
     padding: 4px 8px 4px;;
     color: black
 }
-/*want to have the above hidden when this unfolds over the top of it*/
+/*want to have the above hidden when this unfolds over the top of it works but only bexause it IS ontop of it*/
 .art-type-dropdown {
     margin-top: 0px;
     display: none;
