@@ -7,31 +7,19 @@ body {
     background-position: top;
     color: white;*/
 }
-.main {
-    position: absolute;
-    background: #333;
-    left: 0;
-    top: 60px;
-    padding: 190px;
-    z-index: -1;
-    padding-left: 180px;
-    padding-top: 145px;
-    height: 1691px;
-    right: 0px;
-}
-.main img {
-        vertical-align: middle;
-    width: 920px;
-}
+@media (max-width: 800px) {}
+
+
+
 #navbar {
     width: 1200px;
 }
 .navbar-brand img{
-width: 70px;
-height: 50px;
-position: absolute;
-top: 0px;
-left: 4px;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 4px;
 }
 
 @media (max-width: 800px) {}
