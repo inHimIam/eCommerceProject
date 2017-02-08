@@ -1,6 +1,6 @@
 {
-  "name": "mean-stack-auth",
-  "description": "Tutorial for authentication using the MEAN stack",
+  "name": "art-site",
+  "description": "ART OF PATRICIA LEONARDO CAVALEIRI",
   "main": "index.js",
   "authors": [
     "Justin Bryant"

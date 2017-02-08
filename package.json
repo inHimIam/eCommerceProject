@@ -1,7 +1,7 @@
 {
-  "name": "mean-stack-auth",
+  "name": "art-site",
   "version": "1.0.0",
-  "description": "Tutorial for authentication using the MEAN stack",
+  "description": "ART OF PATRICIA LEONARDO CAVALEIRI",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philippschulte/meanStackAuth.git"
+    "url": "git+https://github.com/inHimIam/eCommerceProject.git"
   },
   "keywords": [
     "authentication",
@@ -19,9 +19,9 @@
   "author": "Justin Bryant",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/philippschulte/meanStackAuth/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/philippschulte/meanStackAuth#readme",
+  "homepage": "https://github.com/inHimIam/eCommerceProject#README",
   "dependencies": {
     "body-parser": "1.15.2",
     "cors": "2.7.1",
