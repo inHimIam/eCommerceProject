@@ -2,6 +2,10 @@
      background-color: darkgreen;
 }*/
 body {
+    /*margin: 0 auto;
+    border: 1px solid black;
+    height:100%;
+    width: 1px;*/
     /*background:#c3bdae;
     background: url(../Images/Commissions/by_sicilianvalkyrie:1.jpg) center no-repeat;
     -webkit-background-size: cover;
@@ -13,20 +17,8 @@ body {
 @media (max-width: 800px) {}
 
 /* navigation bar begin*/
-header {
-    background-color: #696969;
-    border-radius: 26%;
-    height: 40px;
-    width: 55%;
-    margin: 0 auto;
-    position: absolute;
-    top: 8px;
-    left: 21%;
-    color: white;
-    text-align: center;
-    padding-top: 12;
-}
-.welcome {
+
+.welcome-text {
     text-align: center;
     position: absolute;
     top: 0px;
@@ -41,8 +33,8 @@ header {
 
 .art-type {
     position: absolute;
-    top: 22%;
-    left: 47%;
+    top: 8px;
+    left: 46%;
     background: white;
     border: 1px solid goldenrod;
     border-radius: 12px;
@@ -53,7 +45,7 @@ header {
 .art-type-dropdown {
     display: none;
     position: absolute;
-    top: 20%;
+    top: 6px;
     left: 37.4%;
     background: white;
     border: 1px solid goldenrod;
@@ -97,40 +89,12 @@ li a:hover:not(.active) {
 .pic-thumb img:hover:is(.active){
     background: url("../Images/Commissions/by_sicilianvalkyrie:1.jpg")
 }
-.main {
-    position: absolute;
-    background: #333;
-    left: 0;
-    top: 60px;
-    padding: 190px;
-    z-index: -1;
-    padding-left: 180px;
-    padding-top: 145px;
-}
-.main img {
-    background: url("../Images/Commissions/by_sicilianvalkyrie:3.jpg");
-    vertical-align: middle;
-    width: 920px;
-    margin-top: 30px;
-    border: 3px solid black;
-    border-radius: 12px;
-}
-.current-img {
-
-}
-.menu {}
-
-.page-header {
-    padding: 0px;
-    margin: 75px 0px 0px;
-    border-bottom: 1px solid #eee;
-}
 /*Carosuel*/
 .carousel {
     display: inline-flex;
-    position: relative;
-    left: 26.5%;
-    top: -55px;
+    position: absolute;
+    left: 29%;
+    top: 105px;
     border: 1px solid goldenrod;
     padding: 8px;
     background: #787B85;
@@ -146,6 +110,33 @@ li a:hover:not(.active) {
   width: 100px;
   height: 100px;
   padding: 5px;
+}
+.home-main {
+    position: absolute;
+    background: #333;
+    left: 0;
+    top: 60px;
+    padding: 190px;
+}
+.main img {
+    vertical-align: middle;
+    width: 920px;
+    margin-top: 30px;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+.current-img {
+
+}
+.menu {}
+
+.page-header {
+    padding: 0px;
+    width: 100%;
+    position: absolute;
+    top: 126px;
+    left: 0px;
+    border-bottom: 1px solid white;
 }
 
 /*classes to build on later perhaps/*
