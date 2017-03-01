@@ -38,7 +38,7 @@
     });
 
     function imageCtrl () {
-      console.log('Home controller is running');
+      console.log('imageCtrl controller is running');
     }
 
 })();
