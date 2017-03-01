@@ -24,11 +24,3 @@ left: 4px;
     width: 220px;
 }
 
-#description {
-    vertical-align: text-top;
-    height: 100px;
-}
-select.selectpicker {
-    display: inherit;
-}
-
