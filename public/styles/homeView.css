@@ -25,7 +25,7 @@
     padding: 4px 8px 4px;;
     color: black
 }
-/*want to have the above hidden when this unfolds over the top of it works but only bexause it IS ontop of it*/
+/*want to have the above hidden when this unfolds over the top of it works but only because it IS ontop of it*/
 /*want to make these on hover provide a sampling of images contained within (commissions, comics, personal etc.) 
 in the carousel to replace images in carousel with images in clicked file and update current main img*/
 .art-type-dropdown {
@@ -39,6 +39,11 @@ in the carousel to replace images in carousel with images in clicked file and up
     border-radius: 12px;
     padding: 4px 8px 4px;;
     color: black
+}
+.caret {
+    margin-bottom: 20px; 
+    margin-left: 24px; 
+    margin-top: 1px;
 }
 .caret-left {
     display: inline-block;
