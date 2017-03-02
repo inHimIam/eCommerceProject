@@ -18,7 +18,7 @@
 in the carousel when clicked to replace images in carousel with images in clicked file and update current main img*/
 .art-type {
     position: absolute;
-    top: 65px;
+    top: 8px;
     left: 592px;
     background: white;
     border: 1px solid goldenrod;
@@ -32,7 +32,7 @@ in the carousel when clicked to replace images in carousel with images in clicke
     margin-top: 0px;
     display: none;
     position: absolute;
-    top: 65px;
+    top: 6px;
     left: 37.4%;
     background: white;
     border: 1px solid goldenrod;
