@@ -1,8 +1,8 @@
 (function() {
 
   angular
-    .module('artistApp', ['slick'])
-    .controller('imageCtrl', imageCtrl, function($scope){
+    .module('artistApp')
+    .controller('imagesCtrl', imagesCtrl, function($scope){
         $scope.images = 
         [ 
             { 
@@ -34,11 +34,11 @@
                 ]
             }
 
-        ]
+        ];
     });
 
-    function imageCtrl () {
-      console.log('Home controller is running');
+    function imagesCtrl() {
+      console.log('image controller is running');
     }
 
 })();
