@@ -1,17 +1,3 @@
-body {
-    /*margin: 0 auto;
-    border: 1px solid black;
-    height:100%;
-    width: 1px;*/
-    /*background:#c3bdae;
-    background: url(../Images/Commissions/by_sicilianvalkyrie:1.jpg) center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: top;*/
-}
-
 @media (max-width: 800px) {}
 
 /* navigation bar begin*/
@@ -32,8 +18,8 @@ body {
 in the carousel when clicked to replace images in carousel with images in clicked file and update current main img*/
 .art-type {
     position: absolute;
-    top: 8px;
-    left: 46%;
+    top: 65px;
+    left: 592px;
     background: white;
     border: 1px solid goldenrod;
     border-radius: 12px;
@@ -46,7 +32,7 @@ in the carousel when clicked to replace images in carousel with images in clicke
     margin-top: 0px;
     display: none;
     position: absolute;
-    top: 6px;
+    top: 65px;
     left: 37.4%;
     background: white;
     border: 1px solid goldenrod;

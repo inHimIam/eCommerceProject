@@ -1,8 +1,13 @@
 (function() {
 
   angular
+<<<<<<< HEAD
     .module('artistApp', ['slick'])
     .controller('imageCtrl', imageCtrl, function($scope){
+=======
+    .module('artistApp')
+    .controller('imagesCtrl', imagesCtrl, function($scope){
+>>>>>>> justin-test
         $scope.images = 
         [ 
             { 
@@ -34,11 +39,19 @@
                 ]
             }
 
+<<<<<<< HEAD
         ]
     });
 
     function imageCtrl () {
       console.log('imageCtrl controller is running');
+=======
+        ];
+    });
+
+    function imagesCtrl() {
+      console.log('image controller is running');
+>>>>>>> justin-test
     }
 
 })();
