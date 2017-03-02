@@ -14,8 +14,7 @@
     color: whitesmoke;
     /*#c3bdae*/
 }
-/*want to make these on hover provide a sampling of images contained within (commissions, comics, personal etc.) 
-in the carousel when clicked to replace images in carousel with images in clicked file and update current main img*/
+/*Art Type buttons */
 .art-type {
     position: absolute;
     top: 8px;
@@ -26,8 +25,9 @@ in the carousel when clicked to replace images in carousel with images in clicke
     padding: 4px 8px 4px;;
     color: black
 }
-/*Art Type button */
 /*want to have the above hidden when this unfolds over the top of it works but only bexause it IS ontop of it*/
+/*want to make these on hover provide a sampling of images contained within (commissions, comics, personal etc.) 
+in the carousel to replace images in carousel with images in clicked file and update current main img*/
 .art-type-dropdown {
     margin-top: 0px;
     display: none;
@@ -105,23 +105,18 @@ li a:hover:not(.active) {
     top: 60px;
     padding: 190px;
 }
-.main img {
+.home-main img {
     vertical-align: middle;
     width: 920px;
     margin-top: 30px;
     border: 3px solid black;
     border-radius: 12px;
 }
-.current-img {
-
-}
-.menu {}
-
 .home-page-header {
     padding: 0px;
     width: 100%;
     position: absolute;
-    top: 126px;
+    top: 165px;
     left: 0px;
     border-bottom: 1px solid white;
 }
