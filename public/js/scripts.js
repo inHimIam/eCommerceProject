@@ -1,4 +1,5 @@
 $(document).ready(function(){
-  $('.vertical-carousel').slick({
+  $('.your-class').slick({
+    dots: true
   });
 });
