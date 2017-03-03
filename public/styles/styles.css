@@ -12,15 +12,20 @@ body {
     width: 1200px;
 }
 .navbar-brand img{
-width: 70px;
-height: 50px;
-position: absolute;
-top: 0px;
-left: 4px;
+    width: 85px;
+    height: 64px;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    padding: 3px;
+    padding-top: 0px;
 }
 
 @media (max-width: 800px) {}
 .form-control {
     width: 220px;
+}
+h2 {
+    line-height: 2px;
 }
 

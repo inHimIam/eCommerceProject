@@ -8,10 +8,11 @@
     top: 0px;
     left: 10px;
     right: 10px;
-    margin-top: 10px;
+    margin-top: 4px;
     margin-left: 134px;
     margin-right: 134px;
     color: whitesmoke;
+    font-size: 22px;
     /*#c3bdae*/
 }
 /*Art Type buttons */
@@ -86,7 +87,7 @@ li a:hover:not(.active) {
     display: inline-flex;
     position: absolute;
     left: 29%;
-    top: 105px;
+    top: 42px;
     border: 1px solid goldenrod;
     padding: 8px;
     background: #787B85;
@@ -112,8 +113,6 @@ li a:hover:not(.active) {
 }
 .home-main img {
     vertical-align: middle;
-    width: 920px;
-    margin-top: 30px;
     border: 3px solid black;
     border-radius: 12px;
 }
@@ -121,7 +120,7 @@ li a:hover:not(.active) {
     padding: 0px;
     width: 100%;
     position: absolute;
-    top: 165px;
+    top: 100px;
     left: 0px;
     border-bottom: 1px solid white;
 }
