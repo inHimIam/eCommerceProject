@@ -7,9 +7,38 @@ body {
     background-position: top;
     color: white;*/
 }
-
+.caret {
+    margin-bottom: 20px; 
+    margin-left: 24px; 
+    margin-top: 1px;
+}
+.caret-left {
+    display: inline-block;
+    margin-right: 6px;
+    border-right: 6px dashed;
+    vertical-align: middle;
+    border-top: 6px solid transparent;
+    border-left: 2px solid transparent;
+    border-bottom: 6px solid transparent
+    
+}
+.caret-right {
+    display: inline-block;
+    margin-left: 6px;
+    border-left: 6px dashed;
+    vertical-align: middle;
+    border-bottom: 6px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 6px solid transparent;
+}
 #navbar {
     width: 1200px;
+}
+.navbar-inverse {
+    margin-bottom: 0px
+}
+.main-content {
+    
 }
 .navbar-brand img{
     width: 85px;

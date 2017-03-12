@@ -15,12 +15,25 @@
     font-size: 22px;
     /*#c3bdae*/
 }
+.art-selection {
+    height: 124px;
+    position: relative;
+    background: #888a90;
+    display: flex;
+    justify-content: space-around;
+}
+.art-buttons {
+    background: black;
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
 /*Art Type buttons */
 .art-type {
-    position: absolute;
+    position: relative;
     top: 8px;
-    left: 592px;
-    background: white;
+    left: 604px;
+    background: #d3cfc6;
     border: 1px solid goldenrod;
     border-radius: 12px;
     padding: 4px 8px 4px;;
@@ -33,45 +46,24 @@ in the carousel to replace images in carousel with images in clicked file and up
     margin-top: 0px;
     display: none;
     position: absolute;
-    top: 6px;
+    top: 2px;
     left: 37.4%;
-    background: white;
+    background: #d3cfc6;
     border: 1px solid goldenrod;
     border-radius: 12px;
     padding: 4px 8px 4px;;
-    color: black
-}
-.caret {
-    margin-bottom: 20px; 
-    margin-left: 24px; 
-    margin-top: 1px;
-}
-.caret-left {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-right: 6px;
-    vertical-align: middle;
-    border-right: 6px dashed;
-    border-top: 6px solid transparent;
-    border-left: 2px solid transparent;
-    border-bottom: 6px solid transparent
-    
-}
-.caret-right {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 6px;
-    vertical-align: middle;
-    border-left: 6px dashed;
-    border-bottom: 6px solid transparent;
-    border-right: 2px solid transparent;
-    border-top: 6px solid transparent;
+    color: black;
 }
 
 .open > .art-type-dropdown {
     display: flex;
+    justify-content: space-between;
+    background: #d3cfc6;
+    margin-right: 2px;
+    left: 10%;
+    width: 80.5%;
+    padding-left: 95px;
+    padding-right: 95px;
 }
 
 li a:hover:not(.active) {
@@ -85,9 +77,9 @@ li a:hover:not(.active) {
 /*Carosuel*/
 .carousel {
     display: inline-flex;
-    position: absolute;
-    left: 29%;
-    top: 42px;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
     border: 1px solid goldenrod;
     padding: 8px;
     background: #787B85;
@@ -105,26 +97,28 @@ li a:hover:not(.active) {
   padding: 5px;
 }
 .home-main {
-    position: absolute;
+    position: relative;
     background: #333;
-    left: 0;
-    top: 60px;
-    padding: 190px;
 }
 .home-main img {
     vertical-align: middle;
     border: 3px solid black;
     border-radius: 12px;
 }
-.home-page-header {
+.decor-line {
     padding: 0px;
     width: 100%;
-    position: absolute;
-    top: 100px;
-    left: 0px;
-    border-bottom: 1px solid white;
+    position: relative;
+    top: 60px;
+    border-bottom: 1px solid goldenrod;
 }
-
+.current-img {
+    margin-top: 2%;
+    margin-right: 36%;
+    margin-left: 33%;
+    margin-bottom: 2%;
+    height: 700px;
+}
 /*classes to build on later perhaps/*
 .artist {
 }
