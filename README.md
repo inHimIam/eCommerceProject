@@ -2,10 +2,11 @@
 
 Here we are creating an example of an Ecommerce website. In this case a place for an artist to feature their artwork and allow visitors to the site to get an Idea of how much a commission would cost. 
 
-We will build an interface (secret route) for the admin (once verified) to easily monitor and keep track of the customer requests and update the status of each submission.
-
 Server side:
-
+-Admin Auth
+-An interface for a (secret route) for the admin (once verified) to easily monitor and keep track of the customer requests and update the status of each submission.
+-A poduct model to store CRUD operations of user requests
+-A user model to manage user login data
 
 Client side:
 This will feature a navigatable interface for viewing/featuring finished artwork using a carousel, upon click will feature across the entire page. 
