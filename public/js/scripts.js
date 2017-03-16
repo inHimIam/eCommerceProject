@@ -1,5 +1,1 @@
-$(document).ready(function(){
-  $('.your-class').slick({
-    dots: true
-  });
-});
+var myAppModule = angular.module('artistApp', ['slickCarousel'])
