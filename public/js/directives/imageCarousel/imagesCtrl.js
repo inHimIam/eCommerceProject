@@ -37,7 +37,7 @@
         ]
     });
 
-    function imageCtrl () {
+    function imagesCtrl () {
       console.log('imageCtrl controller is running');
     }
 
