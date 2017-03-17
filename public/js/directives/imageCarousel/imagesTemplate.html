@@ -1,0 +1,28 @@
+<div class="slick-container">
+    <slick ng-if="imageLoaded">
+        <div ng-repeat="i in images">
+            <div class="carousel">
+                <div class="image-list">
+                        <div class="pic-thumb">
+                            <li ><a href="" class="art-category">Personal<br><span class="caret"></br></span></a>
+                            <a href="{{ images.personal }}">
+                                <img src="{{ images.personal }}">
+                            </a>
+                        </div>
+                        <div class="pic-thumb">
+                            <li><a href="" class="art-category">Commissions<br><span class="caret"></br></span></a>
+                            <a href="{{ images.commissions }}">
+                                <img src="{{ images.commissions }}">
+                            </a>
+                        </div>
+                        <div class="pic-thumb">
+                            <li><a href="" class="art-category">Comics<br><span class="caret"></br></span></a>
+                            <a href="{{ images.comics }}">
+                                <img src="{{ images.comics }}">
+                            </a>
+                        </div>
+                </div> <!--end image-list-->
+            </div> <!--end of carousel-->
+        </div> <!--end ng-repeat-->
+    </slick>
+</div> <!--end slick-container-->>
