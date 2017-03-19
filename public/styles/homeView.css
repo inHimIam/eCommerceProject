@@ -76,7 +76,7 @@ li a:hover:not(.active) {
     background: url("../Images/Commissions/by_sicilianvalkyrie:1.jpg")
 }
 /*Carosuel*/
-.carousel {
+.myCarousel {
     display: inline-flex;
     position: relative;
     margin-left: 25px;
