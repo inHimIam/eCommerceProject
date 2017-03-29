@@ -1,23 +1,36 @@
-<div class="slick-container">
+<div class="myCarousel">
     <slick ng-if="imageLoaded" 
             infinite=true 
             slides-to-show=3 
             slides-to-scroll=3>
-        <div ng-repeat="image in images">
-            <div class="myCarousel">
-                <div class="image-list">
-                        <div class="pic-thumb">
-                            <li><a href="" class="art-category">Commissions<br><span class="caret"></br></span></a>
-                            <a href="{{ image.commissions.url }}">
-                            <img src="{{ image.commissions.url }}">
-                            </a>
-                        </div>
-                </div> <!--end image-list-->
-            </div> <!--end of carousel-->
-        </div> <!--end ng-repeat-->
+        <div class="image-list" ng-repeat="image in images" >
+            <div class="pic-thumb">
+                <li><a href="" class="art-category">Commissions<br><span class="caret"></br></span></a>
+                <a href="{{ image.url }}">
+                <img src="{{ image.commissions.url }}">
+                </a>
+            </div> <!--end of pic-thumb-->
+        </div> <!--end ng-repeat--> <!--end image-list-->
     </slick>
-</div> <!--end slick-container-->
-<div class="slick-container">
+</div> <!--end of myCarousel-->
+<div class="myCarousel">
+    <slick ng-if="imageLoaded" 
+            infinite=true 
+            slides-to-show=3 
+            slides-to-scroll=3>
+        <div class="image-list" ng-repeat="image in images" >
+            <div class="pic-thumb">
+                <li><a href="" class="art-category">Commissions<br><span class="caret"></br></span></a>
+                <a href="{{ image.personal_art.url }}">
+                <img src="{{ image.personal_art.url }}">
+                </a>
+            </div> <!--end of pic-thumb-->
+        </div> <!--end ng-repeat--> <!--end image-list-->
+    </slick>
+</div> <!--end of myCarousel-->
+
+
+<!--<div class="slick-container">
     <slick ng-if="imageLoaded" 
             infinite=true 
             slides-to-show=3 
@@ -30,9 +43,9 @@
                             <a href="{{ image.comics.url }}">
                             <img src="{{ image.comics.url }}">
                             </a>
-                        </div>
-                </div> <!--end image-list-->
-            </div> <!--end of carousel-->
-        </div> <!--end ng-repeat-->
-    </slick>
-</div> <!--end slick-container-->
+                        </div>-->
+                <!--</div> <!--end image-list-->
+            <!--</div> <!--end of carousel-->
+        <!--</div> <!--end ng-repeat-->
+    <!--</slick>
+<!--</div> <!--end slick-container-->
