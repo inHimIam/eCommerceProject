@@ -1,91 +1,37 @@
 <navigation></navigation>
 
-<div class="main-content">
-        <section class="art-selection open">
-            <div class="art-buttons">
-                <a href="" class="dropdown-toggle art-type" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret-left"></span>Art Type<span class="caret-right"></span>
+<section class="main-content">
+    <div ng-controller="imagesCtrl">
+        
+    <div class="title"><h4>Personal</h4></div> <!-- end personal title -->
+    <div class="my-carousel">
+        <slick 
+            infinite=true 
+            slides-to-show=3 
+            slides-to-scroll=3>
+            <div class="featured-images" ng-repeat="image in personal_art" >
+                <a href="{{ image.url }}">
+                    <img ng-src="{{ image.url }}"alt=""/>
                 </a>
-            <ul class="dropdown-menu art-type-dropdown">
-                <li ><a href="" class="art-category">Personal<br><span class="caret"></br></span></a>
-                <section ng-controller="imagesCtrl"> <!-- 1st carousel slick carousel to be populated by imagesCtrl-->
-                    <image-carousel></image-carousel>
-                </section> <!--end 1st carousel-->
-              </li> <!--end personal-->
-                <li><a href="" class="art-category">Commissions<br><span class="caret"></br></span></a>
-                <section> <!--2nd carousel slick carousel to be populated by imagesCtrl-->
-                    <div class="carousel">
-                        <ul class="image-list">
-                            <li>
-                                <div class="pic-thumb">
-                                    <a href="Images/Personal-Art/by_sicilianvalkyrie:2.jpg">
-                                        <img src="Images/Personal-Art/by_sicilianvalkyrie:2.jpg">
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="pic-thumb">
-                                    <a href="Images/Commissions/by_sicilianvalkyrie:1.jpg">
-                                        <img src="Images/Commissions/by_sicilianvalkyrie:1.jpg">
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                            <div class="pic-thumb">
-                                <a href="Images/Personal-Art/by_sicilianvalkyrie:3.jpg">
-                                    <img src="Images/Personal-Art/by_sicilianvalkyrie:3.jpg">
-                                </a>
-                            </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section> <!--end 2nd carousel-->
-              </li> <!--end Commissions-->
-                <li><a href="" class="art-category">Comics<br><span class="caret"></br></span></a>
-                <section> <!--slick carousel to be populated by imagesCtrl-->
-                    <div class="carousel">
-                        <ul class="image-list">
-                            <li>
-                                <div class="pic-thumb">
-                                    <a href="Images/Personal-Art/by_sicilianvalkyrie:2.jpg">
-                                        <img src="Images/Personal-Art/by_sicilianvalkyrie:2.jpg">
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="pic-thumb">
-                                    <a href="Images/Commissions/by_sicilianvalkyrie:1.jpg">
-                                        <img src="Images/Commissions/by_sicilianvalkyrie:1.jpg">
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                            <div class="pic-thumb">
-                                <a href="Images/Personal-Art/by_sicilianvalkyrie:3.jpg">
-                                    <img src="Images/Personal-Art/by_sicilianvalkyrie:3.jpg">
-                                </a>
-                            </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section> <!--end 3rd carousel-->
-              </li> <!--end Comics-->
-            </ul> <!--end of dropdown-menu art-type-dropdown-->
-            </div> <!--end art-buttons-->
-        </section> <!--end art-selection-->
-        <section>
-            <div class="home-main">
-                <img src="Images/Commissions/by_sicilianvalkyrie:1.jpg" class="current-img">
-            </div>
-        </section> <!-- end home-main-->
-</div> <!--end main-content-->
-<!--code to populate the images in the carousel need to research-->
-        <!--<slick ng-if="imagesCtrl.commissions.length" >
-            <div ng-repeat="(key, value) in imagesCtrl.commissions">
-                <img ng-src="{{images.commissions}}" alt="{{images.title}}"/>
-            </div>
-        </slick> -->
-<!--<div class="your-class">
-  <div><img src="Images/Personal-Art/by_sicilianvalkyrie:2.jpg" alt=""></div>
-  <div><img src="Images/Personal-Art/by_sicilianvalkyrie:3.jpg" alt=""></div>
-  <div><img src="Images/Personal-Art/by_sicilianvalkyrie:4.jpg" alt=""></div>
-</div>-->
+                <div class="desc-container">
+                    <h5>{{ image.desc }}</h5>
+                </div>
+            </div> <!-- end ng-repeat, end image-list -->
+        </slick> <!-- end slick carousel -->
+    </div> <!-- end my-carousel -->
+    <div class="title"><h4>Commissions</h4></div> <!-- end commissions title -->
+    <div class="my-carousel">
+        <slick 
+            infinite=true 
+            slides-to-show=3 
+            slides-to-scroll=3>
+            <div class="featured-images" ng-repeat="image in commissions" >
+                <a href="{{ image.url }}">
+                    <img ng-src="{{ image.url }}"alt=""/>
+                </a>
+            </div> <!-- end ng-repeat, end image-list -->
+    </slick> <!-- end slick carousel -->
+    </div> <!-- end my-carousel -->
+    </div> <!-- end ng-controller imagesCtrl -->
+</section> <!-- end main-content -->
+

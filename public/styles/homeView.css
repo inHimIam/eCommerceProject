@@ -1,7 +1,12 @@
 @media (max-width: 800px) {}
 
 /* navigation bar begin*/
-
+h4 {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
 .welcome-text {
     text-align: center;
     position: absolute;
@@ -15,16 +20,14 @@
     font-size: 22px;
     /*#c3bdae*/
 }
-.art-selection {
+.main-content {
+    width: 100%;
+}
+.title {
     background: black;
     position: relative;
     width: 100%;
     height: 30px;
-}
-.art-buttons {
-    background: black;
-    position: relative;
-    width: 100%;
 }
 /*Art Type buttons */
 .art-type {
@@ -67,58 +70,45 @@ li a:hover:not(.active) {
     background-color: #c3bdae;
     border-radius: 3px;
 }
-.art-category {
-    height: 25px;
-    margin-bottom: 5px;
-}
-/*to have the curently selected img to replace current main img*/
-.pic-thumb img:hover:is(.active){
-    background: url("../Images/Commissions/by_sicilianvalkyrie:1.jpg")
-}
 /*Carosuel*/
-.myCarousel {
-    display: inline-flex;
+.my-carousel {
     position: relative;
-    margin-left: 25px;
-    margin-right: 25px;
     border: 1px solid goldenrod;
     padding: 8px;
     background: #787B85;
     background-color: rgba(200,200,195,0.45);
-    border-radius: 12px;
 }
-.image-list {
-    margin-bottom: 0;
-    list-style: none;
-    padding: 0px;
-    display: inline-flex;
-    justify-content: center;
+.featured-images {}
+
+.featured-images img{
+    background: black;
+    margin: auto;
+    padding:0px;
+}
+.desc-container {
+    background: whitesmoke;
+    border-radius: 3px;
+    text-align: center;
 }
 
-.pic-thumb {
-    padding: 2px;
-}
-.pic-thumb img{
-  background: black;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-}
-.home-main {
+.commissions-section {
     position: relative;
     background: #333;
 }
-.home-main img {
+.commissions-section img {
     vertical-align: middle;
     border: 3px solid black;
     border-radius: 12px;
 }
-.current-img {
-    margin-top: 2%;
-    margin-right: 36%;
-    margin-left: 33%;
-    margin-bottom: 2%;
-    height: 700px;
+
+.personal-art-section {
+    position: relative;
+    background: orange;
+}
+.personal-art-section img{
+    vertical-align: middle;
+    border: 3px solid black;
+    border-radius: 12px;
 }
 /*classes to build on later perhaps/*
 .artist {
