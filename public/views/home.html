@@ -34,8 +34,8 @@
                         <img class="image" ng-src="{{ image.url }}"alt=""/>
                     </a>
                     <div class="desc-container">
-                        <h4 class="title desc-button">{{ image.title }}</h4>
-                        <p>{{ image.desc }}</p>
+                        <button type="button" ng-click="description()" class="title desc-button">{{ image.title }}</button>
+                        <div ng-show="showDesc" class="dropdown-desc">{{ image.desc }}</div>
                     </div> <!-- end desc-container-->
                 </div> <!-- end ng-repeat, end image-list -->
             </slick> <!-- end slick carousel -->
