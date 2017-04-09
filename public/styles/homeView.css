@@ -66,6 +66,27 @@ h4 {
     background: #d3cfc6;
     background-color: transparent 2;
 }
+.desc-button {
+    outline: none;
+    position: relative;
+    background: #d3cfc6;
+    border: 1px solid goldenrod;
+    border-radius: 12px;
+    padding: 4px 8px 4px;;
+    color: black
+}
+.dropdown-desc {
+    margin-top: 0px;
+    background: #d3cfc6;
+    border: 1px solid goldenrod;
+    border-radius: 12px;
+    padding: 4px 8px 4px;;
+    color: black;
+}
+.open > .desc-button {
+    background: #d3cfc6 transparent;
+    text-align: center;
+}
 
 /*classes to build on later perhaps/*
 .artist {

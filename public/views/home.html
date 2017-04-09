@@ -12,11 +12,11 @@
                 slides-to-scroll=3>
                 <div class="featured-images" ng-repeat="image in personal_art" >
                     <a href="{{ image.url }}">
-                        <img class="image" ng-src="{{ image.url }}"alt=""/>
+                        <img class="image" ng-src="{{ image.url }}"alt="{{ image.title }}"/>
                     </a>
                     <div class="desc-container">
-                        <h4 class="title desc-button"data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ image.title }}</h4>
-                        <p class="dropdown-desc">{{ image.desc }}</p>
+                        <button type="button" ng-click="description()" class="title desc-button">{{ image.title }}</button>
+                        <div ng-show="showDesc" class="dropdown-desc">{{ image.desc }}</div>
                     </div> <!-- end desc-container-->
                 </div> <!-- end ng-repeat, end featured-images-->
             </slick> <!-- end slick carousel -->
