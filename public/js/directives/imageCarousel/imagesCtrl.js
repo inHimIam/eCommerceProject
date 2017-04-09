@@ -6,9 +6,9 @@
     function imagesCtrl($scope) {
     $scope.personal_art =
         [
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:1.jpg', desc: "broken image is a bookmark"},
+            {url: '../Images/Personal-Art/by_sicilianvalkyrie:1.jpg', desc: "broken sorry :(", title: "bookmark"},
             {url: '../Images/Personal-Art/by_sicilianvalkyrie:2.jpg', desc: "granny"},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:3.jpg', desc: ""},
+            {url: '../Images/Personal-Art/by_sicilianvalkyrie:3.jpg', desc: "hi"},
             {url: '../Images/Personal-Art/by_sicilianvalkyrie:4.jpg', desc: ""},
             {url: '../Images/Personal-Art/by_sicilianvalkyrie:5.jpg', desc: ""},
             {url: '../Images/Personal-Art/by_sicilianvalkyrie:6.jpg', desc: ""},

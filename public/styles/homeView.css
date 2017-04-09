@@ -23,93 +23,50 @@ h4 {
 .main-content {
     width: 100%;
 }
-.title {
+.heading {
     background: black;
     position: relative;
     width: 100%;
-    height: 30px;
-}
-/*Art Type buttons */
-.art-type {
-    position: relative;
-    top: 5px;
-    left: 46%;
-    background: #d3cfc6;
-    border: 1px solid goldenrod;
-    border-radius: 12px;
-    padding: 4px 8px 4px;;
-    color: black
-}
-/*want to have the above hidden when this unfolds over the top of it works but only because it IS ontop of it*/
-/*want to make these on hover provide a sampling of images contained within (commissions, comics, personal etc.) 
-in the carousel to replace images in carousel with images in clicked file and update current main img*/
-.art-type-dropdown {
-    margin-top: 0px;
-    display: none;
-    position: absolute;
-    top: 2px;
-    left: 37.4%;
-    background: #d3cfc6;
-    border: 1px solid goldenrod;
-    border-radius: 12px;
-    padding: 4px 8px 4px;;
-    color: black;
-}
-
-.open > .art-type-dropdown {
-    display: flex;
-    justify-content: center;
-    background: #d3cfc6 transparent;
-    
-    left: 5%;
-    width: 90.5%;
-    text-align: center;
-}
-
-li a:hover:not(.active) {
-    background-color: #c3bdae;
-    border-radius: 3px;
+    height: 40px;
 }
 /*Carosuel*/
 .my-carousel {
     position: relative;
-    border: 1px solid goldenrod;
+    border: 3px solid goldenrod;
     padding: 8px;
     background: #787B85;
     background-color: rgba(200,200,195,0.45);
 }
-.featured-images {}
+.slick-container{
+    margin-right: 75px;
+    margin-left: 75px;
+}
+.featured-images {
+    display: inline-table;
+    margin: 8px 11px 25px 12px;
+}
 
 .featured-images img{
+    border-radius: 8px;
     background: black;
-    margin: auto;
-    padding:0px;
+    padding: 8px;
+    height: 550px;
+    width: 345px;
+}
+.image {
+    background: red;
 }
 .desc-container {
     background: whitesmoke;
     border-radius: 3px;
     text-align: center;
+    margin-top: 6px;
+}
+.title {
+    background: #d3cfc6;
+    background-color: transparent 2;
 }
 
-.commissions-section {
-    position: relative;
-    background: #333;
-}
-.commissions-section img {
-    vertical-align: middle;
-    border: 3px solid black;
-    border-radius: 12px;
-}
-
-.personal-art-section {
-    position: relative;
-    background: orange;
-}
-.personal-art-section img{
-    vertical-align: middle;
-    border: 3px solid black;
-    border-radius: 12px;
-}
 /*classes to build on later perhaps/*
 .artist {
 }

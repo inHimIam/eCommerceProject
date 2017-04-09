@@ -3,35 +3,51 @@
 <section class="main-content">
     <div ng-controller="imagesCtrl">
         
-    <div class="title"><h4>Personal</h4></div> <!-- end personal title -->
+    <div class="heading"><h4>Personal</h4></div> <!-- end personal title -->
     <div class="my-carousel">
-        <slick 
-            infinite=true 
-            slides-to-show=3 
-            slides-to-scroll=3>
-            <div class="featured-images" ng-repeat="image in personal_art" >
-                <a href="{{ image.url }}">
-                    <img ng-src="{{ image.url }}"alt=""/>
-                </a>
-                <div class="desc-container">
-                    <h5>{{ image.desc }}</h5>
-                </div>
-            </div> <!-- end ng-repeat, end image-list -->
-        </slick> <!-- end slick carousel -->
+        <div class="slick-container">
+            <slick 
+                infinite=true 
+                slides-to-show=3 
+                slides-to-scroll=3>
+                <div class="featured-images" ng-repeat="image in personal_art" >
+                    <a href="{{ image.url }}">
+                        <img class="image" ng-src="{{ image.url }}"alt=""/>
+                    </a>
+                    <div class="desc-container">
+                        <h4 class="title desc-button"data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ image.title }}</h4>
+                        <p class="dropdown-desc">{{ image.desc }}</p>
+                    </div> <!-- end desc-container-->
+                </div> <!-- end ng-repeat, end featured-images-->
+            </slick> <!-- end slick carousel -->
+        </div> <!--end slick-container-->
     </div> <!-- end my-carousel -->
-    <div class="title"><h4>Commissions</h4></div> <!-- end commissions title -->
+    <div class="heading"><h4>Commissions</h4></div> <!-- end commissions title -->
     <div class="my-carousel">
-        <slick 
-            infinite=true 
-            slides-to-show=3 
-            slides-to-scroll=3>
-            <div class="featured-images" ng-repeat="image in commissions" >
-                <a href="{{ image.url }}">
-                    <img ng-src="{{ image.url }}"alt=""/>
-                </a>
-            </div> <!-- end ng-repeat, end image-list -->
-    </slick> <!-- end slick carousel -->
+        <div class="slick-container">
+            <slick 
+                infinite=true 
+                slides-to-show=3 
+                slides-to-scroll=3>
+                <div class="featured-images" ng-repeat="image in commissions" >
+                    <a href="{{ image.url }}">
+                        <img class="image" ng-src="{{ image.url }}"alt=""/>
+                    </a>
+                    <div class="desc-container">
+                        <h4 class="title desc-button">{{ image.title }}</h4>
+                        <p>{{ image.desc }}</p>
+                    </div> <!-- end desc-container-->
+                </div> <!-- end ng-repeat, end image-list -->
+            </slick> <!-- end slick carousel -->
+        </div> <!-- end slick-container -->
     </div> <!-- end my-carousel -->
     </div> <!-- end ng-controller imagesCtrl -->
 </section> <!-- end main-content -->
 
+<div class="desc-button">
+    <a href="" class="dropdown-toggle art-type" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <span class="caret-left"></span>Art Type<span class="caret-right"></span>
+    </a>
+    <ul class="dropdown-menu art-type-dropdown">
+    <li><a href="" class="art-category">Personal<br><span class="caret"></br></span></a>
+</div>
