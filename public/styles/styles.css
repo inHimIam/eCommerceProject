@@ -34,19 +34,31 @@ body {
     border-top: 6px solid transparent;
 }
 #navbar {
-    width: 1200px;
+    width: 100%;
 }
 .navbar-inverse {
     margin-bottom: 0px
 }
+.navbar-nav{
+    float: left;
+    margin: 0;
+    position: relative;
+    left: 40px;
+}
+.navbar-right{
+    position: relative;
+    left: 0px;
+}
 .artist-logo img{
+    float: left;
     width: 85px;
     height: 64px;
-    position: absolute;
-    top: 0px;
-    left: 4px;
+    position: relative;
     padding: 3px;
     padding-top: 0px;
+}
+.right-logo{
+top: -10px;
 }
 
 @media (max-width: 800px) {}
