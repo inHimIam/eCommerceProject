@@ -3,53 +3,65 @@
 <section class="main-content">
     <div ng-controller="imagesCtrl">
         
-    <div class="heading"><h4>Personal</h4></div> <!-- end personal title -->
+    <div class="heading"><h4>Commissions</h4></div> <!-- end commissions title -->
+    <div class="my-carousel">
+        <div class="slick-container">
+            <slick
+                infinite=true 
+                slides-to-show=3 
+                slides-to-scroll=3>
+                <div class="featured-images" ng-repeat="image in commissions" >
+                    <a href="{{ image.url }}">
+                        <img class="image" ng-src="{{ image.url }}" alt="" />
+                    </a>
+                    <div class="desc-container">
+                        <button type="button" ng-click="description()" class="title desc-button">
+                        {{ image.title }}
+                        </button>
+                        <div ng-show="showDesc" class="dropdown-desc">{{ image.desc }}
+                        </div> <!-- end ng-showDesc -->
+                    </div> <!-- end desc-container-->
+                </div> <!-- end ng-repeat, end image-list -->
+            </slick> <!-- end slick carousel -->
+        </div> <!-- end slick-container -->
+    </div> <!-- end my-carousel -->
+        <div class="heading"><h4>Personal</h4></div> <!-- end personal title -->
     <div class="my-carousel">
         <div class="slick-container">
             <div class="image-container">            
-            <slick 
+            <slick
                 infinite=true 
                 slides-to-show=3 
                 slides-to-scroll=3>
                 <div class="featured-images" ng-repeat="image in personal_art" >
                     <a href="{{ image.url }}">
-                        <img class="image" ng-src="{{ image.url }}"alt="{{ image.title }}"/>
+                        <img class="image" ng-src="{{ image.url }}" alt="{{ image.title }}" />
                     </a>
                     <div class="desc-container">
-                        <button type="button" ng-click="description()" class="title desc-button">{{ image.title }}</button>
-                        <div ng-show="showDesc" class="dropdown-desc">{{ image.desc }}</div>
+                        <button type="button" ng-click="description()" class="title desc-button">
+                        {{ image.title }}
+                        </button>
+                        <div ng-show="showDesc" class="dropdown-desc">{{ image.desc }}
+                        </div> <!-- end ng-showDesc -->
                     </div> <!-- end desc-container-->
                 </div> <!-- end ng-repeat, end featured-images-->
             </slick> <!-- end slick carousel -->
             </div> <!-- end image-container -->
         </div> <!--end slick-container-->
     </div> <!-- end my-carousel -->
-    <div class="heading"><h4>Commissions</h4></div> <!-- end commissions title -->
-    <div class="my-carousel">
-        <div class="slick-container">
-            <slick 
-                infinite=true 
-                slides-to-show=3 
-                slides-to-scroll=3>
-                <div class="featured-images" ng-repeat="image in commissions" >
-                    <a href="{{ image.url }}">
-                        <img class="image" ng-src="{{ image.url }}"alt=""/>
-                    </a>
-                    <div class="desc-container">
-                        <button type="button" ng-click="description()" class="title desc-button">{{ image.title }}</button>
-                        <div ng-show="showDesc" class="dropdown-desc">{{ image.desc }}</div>
-                    </div> <!-- end desc-container-->
-                </div> <!-- end ng-repeat, end image-list -->
-            </slick> <!-- end slick carousel -->
-        </div> <!-- end slick-container -->
-    </div> <!-- end my-carousel -->
     </div> <!-- end ng-controller imagesCtrl -->
+    <div class="heading"><h4>My Story</h4></div> <!-- end the Artist title -->
+    <div class="about-container">
+            <ul class="artist-bio-name">
+                <li>Patricia</li><li>Leonardo</li><li> Calverari</li>
+            </ul>
+        <div class="avatar">
+            <img src="http://img08.deviantart.net/dd8c/i/2009/216/c/3/self_id_by_sicilianvalkyrie.jpg" alt="patricia"/>
+        </div class="bio">
+        <p>Hello, I am from Argentina, I gained my passion for art at an early age.... Lorem</p>
+    </div>
+    <div class="clients-container">
+        <div class="testimonials">            
+        </div>
+    </div>
 </section> <!-- end main-content -->
-
-<div class="desc-button">
-    <a href="" class="dropdown-toggle art-type" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-        <span class="caret-left"></span>Art Type<span class="caret-right"></span>
-    </a>
-    <ul class="dropdown-menu art-type-dropdown">
-    <li><a href="" class="art-category">Personal<br><span class="caret"></br></span></a>
-</div>

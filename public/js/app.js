@@ -50,5 +50,4 @@
     .module('artistApp')
     .config(['$routeProvider', '$locationProvider', config])
     .run(['$rootScope', '$location', 'authentication', run]);
-
 })();

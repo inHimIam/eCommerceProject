@@ -86,7 +86,26 @@ h4 {
     background: #d3cfc6 transparent;
     text-align: center;
 }
-
+.artist-bio-name {
+    margin: 10px 165px 0px 90px;
+    list-style-type: none;
+    font-size: 50px;
+    display: inline-flex;
+    position: relative;
+}
+.artist-bio-name li {
+    padding-left: 123px;
+    font-family: fantasy;
+}
+.avatar {
+    text-align: center;
+    
+}
+.avatar img {
+    height: 75px;
+    width: 75px;
+    border-radius: 40px;
+}
 /*classes to build on later perhaps/*
 .artist {
 }

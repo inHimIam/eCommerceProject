@@ -47,7 +47,7 @@
             {url: '../Images/Commissions/by_sicilianvalkyrie:22.jpg', desc: "", title: "Reading on the Subway"},
             {url: '../Images/Commissions/by_sicilianvalkyrie:23.jpg', desc: "", title: "Shol Ashys"},
             {url: '../Images/Commissions/by_sicilianvalkyrie:24.jpg', desc: "", title: "Snowball War"},
-            {url: '../Images/Commissions/by_sicilianvalkyrie:25.jpg', desc: "", title: "Snowball War Detailed"},
+            {url: '../Images/Commissions/by_sicilianvalkyrie:25.jpg', desc: "", title: "Snowball War (Detailed)"},
             {url: '../Images/Commissions/by_sicilianvalkyrie:26.jpg', desc: "", title: "The Francellans"},
             {url: '../Images/Commissions/by_sicilianvalkyrie:27.jpg', desc: "", title: "The Long Watch"},
             {url: '../Images/Commissions/by_sicilianvalkyrie:28.jpg', desc: "", title: "The Market"},
@@ -58,9 +58,12 @@
             {url: '../Images/Commissions/by_sicilianvalkyrie:33.jpg', desc: "", title: "Celes"},
             {url: '../Images/Commissions/by_sicilianvalkyrie:34.jpg', desc: "", title: "Gunra"}
         ]
+        
     $scope.showDesc = false;
     $scope.description = function() {
         $scope.showDesc = !$scope.showDesc;
     };
+
     }
+    
     })();
