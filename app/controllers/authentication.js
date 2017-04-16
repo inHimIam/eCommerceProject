@@ -12,7 +12,7 @@ function sendJSONresponse(res, status, content) {
 function register(req, res) {
   if(!req.body.name || !req.body.email || !req.body.password) {
     sendJSONresponse(res, 400, {
-      "message": "All fields required"
+      'message': 'All fields required'
     });
     return;
   }
@@ -29,7 +29,7 @@ function register(req, res) {
     token = user.generateJwt();
     res.status(200);
     res.json({
-      "token" : token
+      'token' : token
     });
   });
 }
@@ -37,7 +37,7 @@ function register(req, res) {
 function login(req, res) {
   if(!req.body.email || !req.body.password) {
     sendJSONresponse(res, 400, {
-      "message": "All fields required"
+      'message': 'All fields required'
     });
     return;
   }
@@ -57,7 +57,7 @@ function login(req, res) {
       token = user.generateJwt();
       res.status(200);
       res.json({
-        "token" : token
+        'token' : token
       });
     } else {
       // If user is not found

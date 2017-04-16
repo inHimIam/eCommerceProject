@@ -9,11 +9,11 @@
         var vm = this;
 
         vm.newCommission = {
-            ArtType: "",
-            Description: "",
-            NumberCharacters: "",
-            Background: ["No-background", "Simple-background", "Complex-background"],
-            ExampleImage: ""
+            ArtType: '',
+            Description: '',
+            NumberCharacters: '',
+            Background: ['No-background', 'Simple-background', 'Complex-background'],
+            ExampleImage: ''
         };
 
         vm.onSubmit = function() {

@@ -35,6 +35,9 @@
         controller: 'adminController',
         controllerAs: 'vm'
       })
+      // .when('/bio', {
+
+      // }
       .otherwise({redirectTo: '/'});
   }
 
