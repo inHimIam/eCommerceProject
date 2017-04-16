@@ -30,8 +30,8 @@ h4 {
     margin-left: 75px;
 }
 .featured-images {
-    display: inline-table;
-    margin: 8px 11px 25px 12px;
+    display: inline-block;
+    margin: 12px;
 }
 
 .featured-images img{

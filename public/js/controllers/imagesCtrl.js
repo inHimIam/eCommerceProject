@@ -56,7 +56,7 @@
             {url: '../Images/Commissions/by_sicilianvalkyrie:31.jpg', desc: 'Book Cover', title: 'Young Adventurers'},
             {url: '../Images/Commissions/by_sicilianvalkyrie:32.jpg', desc: '', title: 'Yrsa'},
             {url: '../Images/Commissions/by_sicilianvalkyrie:33.jpg', desc: '', title: 'Celes'},
-            {url: '../Images/Commissions/by_sicilianvalkyrie:34.jpg', desc: '', title: 'Gunra'}
+            {url: '../Images/Commissions/by_sicilianvalkyrie:35.jpg', desc: '', title: 'Voodom'}
         ]
         
     $scope.showDesc = false;
