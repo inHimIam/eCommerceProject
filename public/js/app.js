@@ -1,7 +1,5 @@
 (function () {
-  var myAppModule = angular.module('artistApp', ['slickCarousel'])
-  
-  angular.module('artistApp', ['ngRoute']);
+  angular.module('artistApp', ['ngRoute', 'slickCarousel']);
 
   function config ($routeProvider, $locationProvider) {
     $routeProvider

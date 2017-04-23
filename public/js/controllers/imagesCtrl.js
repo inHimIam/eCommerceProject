@@ -23,7 +23,7 @@
         ]
      $scope.commissions = 
         [      
-            {url: '../Images/Commissions/by_sicilianvalkyrie:1.jpg', desc: '', title: 'Could you Help Me Night'},
+            {url: '../Images/Commissions/by_sicilianvalkyrie:1.jpg', desc: '', title: 'Could you Help Me (Night)'},
             {url: '../Images/Commissions/by_sicilianvalkyrie:2.jpg', desc: '', title: 'Could you Help Me'},
             {url: '../Images/Commissions/by_sicilianvalkyrie:3.jpg', desc: '', title: 'The Focal Pointers'},
             {url: '../Images/Commissions/by_sicilianvalkyrie:4.jpg', desc: '', title: 'The Ragers'},

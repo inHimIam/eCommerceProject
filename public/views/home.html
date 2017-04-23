@@ -1,7 +1,7 @@
 <navigation></navigation>
 
-<section class="main-content">
-    <div ng-controller="imagesCtrl">
+<section class="main-content" ng-controller="imagesCtrl">
+    <div>
         
     <div class="heading"><h4>Commissions</h4></div> <!-- end commissions title -->
     <div class="my-carousel">
@@ -10,7 +10,9 @@
                 init-onload=true
                 infinite=true 
                 slides-to-show=3 
-                slides-to-scroll=3>
+                slides-to-scroll=3
+                focusOnSelect=true
+                fade=true>
                 <div class="featured-images" ng-repeat="image in commissions" >
                     <a href="{{ image.url }}">
                         <img class="image" ng-src="{{ image.url }}" alt="" />
