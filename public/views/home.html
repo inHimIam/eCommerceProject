@@ -7,12 +7,11 @@
     <div class="my-carousel">
         <div class="slick-container">
             <slick
-                init-onload=true
-                infinite=true 
-                slides-to-show=3 
-                slides-to-scroll=3
-                focusOnSelect=true
-                fade=true>
+                infinite=true
+                slides-to-show=3
+                slides-to-scroll=1
+                centerMode=true
+                speed=150>
                 <div class="featured-images" ng-repeat="image in commissions" >
                     <a href="{{ image.url }}">
                         <img class="image" ng-src="{{ image.url }}" alt="" />
@@ -33,9 +32,17 @@
         <div class="slick-container">
             <div class="image-container">            
             <slick
-                infinite=true 
-                slides-to-show=3 
-                slides-to-scroll=3>
+                infinite=true
+                slides-to-show=3
+                slides-to-scroll=1
+                centerMode=true
+                init-onload=true
+                autoplay=true
+                fade=true
+                speed=2500
+                autoplaySpeed=2800
+                variableWidth=true
+                >
                 <div class="featured-images" ng-repeat="image in personal_art" >
                     <a href="{{ image.url }}">
                         <img class="image" ng-src="{{ image.url }}" alt="{{ image.title }}" />

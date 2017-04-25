@@ -6,9 +6,14 @@
   </div>
 
 <!--some code here to populate price as user makes changes-->
-  <p>Price</p> 
+<div class="" style="display: inline-block">
+  <h3 style="">Estimated Price</h3>
+  <h4 style="text-align: left; color: #E91E63; padding-top: 10px;">* this price is an estimate only</h4>
+  <p style="text-align: center; font-size: medium">$ changes as  to criteria</p>
+</div>
     
-
+<div class="customer-form">
+  
   <form ng-submit="vm.onSubmit()">
       <!--will link art example url/s for selected art type and populate a base price in designated field-->
       <div class="form-group">
@@ -26,7 +31,7 @@
     </div>
     <div class="form-group" >
       <label for="Background">Select a background option</label>
-      <select ng-model="vm.newCommission.Background" class="selectpicker">
+        <select ng-model="vm.newCommission.Background" class="selectpicker">
         <option>No-background</option>
         <option>Simple-background</option>
         <option>Complex-background</option>
@@ -35,12 +40,15 @@
     <div class="form-group">
       <label for="UploadExample"> Upload an example image</label>
       <input type="text" class="form-control" placeholder="upload an example image here" ng-model="vm.newCommission.ExampleImage">
-  <h4>* this price is an estimate only</h4>
     </div>
-    <button type="submit" class="btn btn-info">Submit</button>
+    <button type="submit" class="btn btn-info" style="position: relative; left: 70px; margin-bottom: 25px">Submit</button>
   </form>
-  <div>
+
+</div>
+  <div class="criteria-example">
+    <p style="text-align: center; margin-top: 10px">the image below will populate the Artwork examples based upon selected criteria to the left</p>
     <!--this field will populate the Artwork examples based upon selected criteria above-->
+    <img src="./Images/Personal-Art/by_sicilianvalkyrie:6.jpg" alt="">
   </div>
   <h2>Feel free to contact me with any additional details jcarlbryan@yahoo.com</h2>
 </div>

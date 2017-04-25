@@ -20,13 +20,13 @@ var productSchema = new mongoose.Schema({
 
     NumberCharacters: {
         type: Number,
-        min: 0,
+        min: v => Math.round(v),
         max: 5
     },
 
     Background: {
         type: String,
-        enum: ['No-background', 'Simple-background', 'Complex-background']
+        enum: ['No-background', 'Simple-background', 'Complex-background',]
     },
 
     ExampleImage: 

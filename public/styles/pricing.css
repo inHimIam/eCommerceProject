@@ -1,0 +1,15 @@
+.criteria-example {
+    position: absolute;
+    left: 380px;
+    top: 75px;
+    height: 500px;
+    width: 1000px;
+}
+.criteria-example img {
+    height: 500px;
+    width: 1000px;
+    padding-right: 100px;
+}
+.selectpicker {
+    display: block;
+}
