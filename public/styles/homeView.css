@@ -26,20 +26,20 @@ h4 {
     background-color: rgba(200,200,195,0.45);
 }
 .slick-container{
-    margin-right: 75px;
-    margin-left: 75px;
+    padding: 40px;
+    padding-top: 5px;
 }
 .featured-images {
-    display: inline-block;
-    margin: 12px;
+    
 }
 
 .featured-images img{
+    margin: 0 auto;
     border-radius: 8px;
     background: black;
     padding: 8px;
     height: 550px;
-    width: 335px;
+    width: auto;
 }
 .image {
     background: red;
@@ -47,6 +47,7 @@ h4 {
 .desc-container {
     border-radius: 3px;
     text-align: center;
+    margin: 0 auto;
     margin-top: 6px;
     width:345px;
 }

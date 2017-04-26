@@ -4,14 +4,12 @@
     <div>
         
     <div class="heading"><h4>Commissions</h4></div> <!-- end commissions title -->
-    <div class="my-carousel">
+    <div class="my-carousel center">
         <div class="slick-container">
             <slick
-                infinite=true
-                slides-to-show=3
-                slides-to-scroll=1
                 centerMode=true
-                speed=150>
+                slidesToShow=1
+                dots=true>
                 <div class="featured-images" ng-repeat="image in commissions" >
                     <a href="{{ image.url }}">
                         <img class="image" ng-src="{{ image.url }}" alt="" />
