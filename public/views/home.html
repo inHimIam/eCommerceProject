@@ -4,15 +4,18 @@
     <div>
         
     <div class="heading"><h4>Commissions</h4></div> <!-- end commissions title -->
-    <div class="my-carousel center">
+    <div class="my-carousel">
         <div class="slick-container">
-            <slick
+            <slick ng-if="dataLoaded" init-onload="false" data="dataLoaded"
+                infinite=true
                 centerMode=true
-                slidesToShow=1
+                slidesToShow=3
+                slidesToScroll=3
+                variableWidth=true
                 dots=true>
                 <div class="featured-images" ng-repeat="image in commissions" >
                     <a href="{{ image.url }}">
-                        <img class="image" ng-src="{{ image.url }}" alt="" />
+                        <img class="" ng-src="{{ image.url }}" alt="" />
                     </a>
                     <div class="desc-container">
                         <button type="button" ng-click="description()" class="title desc-button">

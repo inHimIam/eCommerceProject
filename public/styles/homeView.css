@@ -26,23 +26,15 @@ h4 {
     background-color: rgba(200,200,195,0.45);
 }
 .slick-container{
-    padding: 40px;
+    margin: 0px 50px;
     padding-top: 5px;
 }
-.featured-images {
-    
-}
-
 .featured-images img{
     margin: 0 auto;
     border-radius: 8px;
     background: black;
     padding: 8px;
     height: 550px;
-    width: auto;
-}
-.image {
-    background: red;
 }
 .desc-container {
     border-radius: 3px;
@@ -105,12 +97,4 @@ h4 {
     padding: 15px;
     border: 2px solid black;
     border-radius: 4px;
-}
-/*classes to build on later perhaps/*
-.artist {
-}
-.contact {
-}
-
-.art {
 }

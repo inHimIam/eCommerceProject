@@ -58,11 +58,11 @@
             {url: '../Images/Commissions/by_sicilianvalkyrie:33.jpg', desc: '', title: 'Celes'},
             {url: '../Images/Commissions/by_sicilianvalkyrie:35.jpg', desc: '', title: 'Voodom'}
         ]
-        
     $scope.showDesc = false;
     $scope.description = function() {
         $scope.showDesc = !$scope.showDesc;
     };
+    $scope.dataLoaded=true    
 
     }
     
