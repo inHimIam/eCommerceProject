@@ -29,7 +29,7 @@
         controllerAs: 'vm'
       })
       .when('/admin', {
-        templateUrl: './public/views/admin/adminManager.html',
+        templateUrl: './views/admin/adminManager.html',
         controller: 'adminController',
         controllerAs: 'vm'
       })

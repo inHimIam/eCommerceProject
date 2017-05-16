@@ -1,25 +1,53 @@
 <navigation></navigation>
+<div class="main" ng-controller="imagesCtrl">
+  <section class="register-container">
+      <div class="register-page-header"></div>
+        <h2>Register</h2>
+        <p class="lead">Already a member? Please <a href="/#/login">log in</a> instead.</p>
 
-<div class="container">
-  <div class="register-page-header">
-    <h2>Register</h2>
-  </div>
-
-  <p class="lead">Already a member? Please <a href="/#/login">log in</a> instead.</p>
-
-  <form ng-submit="vm.onSubmit()">
-    <div class="form-group">
-      <label for="name">Full name</label>
-      <input type="text" class="form-control" placeholder="Enter your name" ng-model="vm.credentials.name" required>
-    </div>
-    <div class="form-group">
-      <label for="email">Email address</label>
-      <input type="email" class="form-control" placeholder="Enter email" ng-model="vm.credentials.email" required>
-    </div>
-    <div class="form-group">
-      <label for="password">Password</label>
-      <input type="password" class="form-control" placeholder="Password" ng-model="vm.credentials.password" required>
-    </div>
-    <button type="submit" class="btn btn-info">Register</button>
-  </form>
+      <form ng-submit="vm.onSubmit()">
+        <div class="form-group">
+          <label for="name">Full name</label>
+          <input type="text" class="form-control" placeholder="Enter your name" ng-model="vm.credentials.name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" placeholder="Enter email" ng-model="vm.credentials.email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" placeholder="Password" ng-model="vm.credentials.password" required>
+        </div>
+        <button type="submit" class="btn btn-info">Register</button>
+      </form>
+  </section> <!-- end register-container -->
+  <section class="testimonial-container">
+      <h1>Meet my customers!</h1>
+      <div class="testimonial-carousel">
+        <div class="carousel-wrapper-outer">
+          <div class="carousel-wrapper">
+            <slick ng-if="dataLoaded" init-onload="false" data="dataLoaded" class="customer"
+                infinite=true
+                centerMode=false
+                arrows=false
+                slidesToShow=1
+                slidesToScroll=1
+                autoplay=true
+                fade=true
+                speed=2500
+                autoplaySpeed=2800
+                variableWidth=true
+                dots=false>
+              <div class="customer-image-container" ng-repeat="image in commissions">
+                <img src="{{ image.url }}" alt="">
+              <div class="customer-comments">
+                <h1>{{ image.client }}</h1>
+                <p>{{ image.testimonial }} Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit placeat nisi ratione mollitia voluptate! Perspiciatis dicta, quis distinctio, expedita odit dolorem laboriosam. Soluta dignissimos repellat commodi dolore nam, sunt quibusdam.</p>
+              </div> <!-- end customer-image-container end ng-repeat-->
+              </div> <!-- end-customer-comments -->
+            </slick> <!-- end customer -->
+          </div> <!-- end caousel-wrapper -->
+        </div> <!-- end  carusel-wrapper-outer-->
+      </div><!-- end testimonial-carousel -->
+  </section> <!-- end testimonial -->
 </div>

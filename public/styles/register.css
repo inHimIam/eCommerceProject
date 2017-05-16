@@ -1,0 +1,54 @@
+.container-right {
+
+}
+.container-left {
+
+}
+.lead {
+    margin: 2px;
+}
+.register-container {
+    position: relative;
+    float: left;
+    width: 30%;
+    margin: 2px;
+}
+.testimonial-container {
+    position: relative;
+    float: right;
+    width: 69%;
+    margin: 2px;
+    text-align: center;
+}
+.testimonial-carousel {
+    border: 5px solid blue;
+}
+.carousel-wrapper-outer {
+    border: 4px solid black;
+    background: gray;
+
+}
+.carousel-wrapper {
+    opacity: 1;
+    border: 3px solid orange;
+    margin: 0 30px;
+}
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+.customer {
+    background: black;
+}
+.customer-image-container {
+    margin-top: 20px;
+}
+.customer-image-container img{
+    margin: 0 auto;
+    width: auto;
+    height: 400px;
+}
+.customer-comments {
+    margin: 0 10px;
+    background: white;
+    border-radius: 10px;
+}

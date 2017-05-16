@@ -9,8 +9,9 @@
     var vm = this;
 
     vm.credentials = {
-      email : "",
-      password : "",
+      email: "",
+      password: "",
+      admin: boolean
     };
 
     vm.onSubmit = function () {
@@ -20,7 +21,11 @@
           alert(err);
         })
         .then(function(){
-          $location.path('profile');
+          if(vm.credentials.admin == false) {
+          $location.path('profile');} else {
+            $location.path('admin');
+          } 
+          ;
         });
     };
 
