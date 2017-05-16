@@ -11,7 +11,7 @@
     vm.credentials = {
       email: "",
       password: "",
-      admin: boolean
+      admin: Boolean
     };
 
     vm.onSubmit = function () {
@@ -21,10 +21,8 @@
           alert(err);
         })
         .then(function(){
-          if(vm.credentials.admin == false) {
-          $location.path('profile');} else {
-            $location.path('admin');
-          } 
+          if(!vm.credentials.admin == false) {
+          $location.path('profile');} 
           ;
         });
     };
