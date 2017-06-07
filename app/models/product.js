@@ -26,7 +26,7 @@ var productSchema = new mongoose.Schema({
 
     Background: {
         type: String,
-        enum: ['No-background', 'Simple-background', 'Complex-background',]
+        enum: ['No-background', 'Simple-background', 'Complex-background']
     },
 
     ExampleImage: 

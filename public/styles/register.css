@@ -20,6 +20,9 @@
     margin: 2px;
     text-align: center;
 }
+.testimonial-container h1{
+    margin-top: 5px;
+}
 .testimonial-carousel {
     border: 5px solid blue;
 }

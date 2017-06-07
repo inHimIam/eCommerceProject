@@ -1,7 +1,7 @@
 $(document).ready(function(){
         
 $('.slick-container').slick({
-  arrows: true,
+  dots: false,
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 3,
@@ -26,7 +26,6 @@ $('.slick-container').slick({
     }
   ]
 });
-
 
         // $('.tweet-actions').hide();
         // $('.stats').hide();

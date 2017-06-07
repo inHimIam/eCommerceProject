@@ -1,11 +1,5 @@
-body {
-    /*background: url(https://photos-2.dropbox.com/t/2/AADR6qZx_L0CcuWxqcBoP1aczNWuUPONTfqfw5PZux2KdQ/12/537224311/jpeg/32x32/1/_/1/2/the_seer_by_sicilianvalkyrie.jpg/ENzj4rAEGI8DIAIoAg/Qo8ZbQv5QkruUVOpiGhfqZyTeqbyCzpYeqaHmaqGcPo?size=1024x768&size_mode=3) center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: top;
-    color: white;*/
+.login-main {
+    background: url(http://localhost:3000/Images/Commissions/by_sicilianvalkyrie:1.jpg);
 }
 .content {
 
@@ -37,6 +31,7 @@ dropdown-toggle {
 }
 #navbar {
     width: 100%;
+    margin-top: 0;
 }
 
 .menu ::before{
@@ -49,7 +44,7 @@ dropdown-toggle {
     float: left;
     margin: 0;
     position: relative;
-    left: 40px;
+    left: 25px;
 }
 .navbar-nav li {
     right: 20px;
