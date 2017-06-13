@@ -17,7 +17,7 @@
     };
 
     return {
-      getCommission : getCommission
+      getCommission: getCommission
     };
   }
 
