@@ -7,29 +7,122 @@
     $scope.personal_art =
         [
             // {url: '../Images/Personal-Art/by_sicilianvalkyrie:1.jpg', desc: 'broken sorry :(', title: 'Night and Twilight Bookmarks'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:2.jpg', desc: 'just a little granny', title: 'Granny Cheesecake'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:3.jpg', desc: '', title: 'The Ghost Woman'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:4.jpg', desc: 'My friend Natisha', title: 'Portrait of Natisha'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:5.jpg', desc: 'A gift for a friend', title: 'Elly vs Fangirls'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:6.jpg', desc: 'From the Time of the Twins a fantasy novel in the Dragonlance series written by Margaret Weis and Tracy Hickman.', title: 'Rastiln & Crysania'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:7.jpg', desc: '', title: 'Druid'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:8.jpg', desc: 'Oil practice', title: 'Waterhouse'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:9.jpg', desc: '', title: 'Dark Elf Sketch'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:10.jpg', desc: '', title: 'Adventurers Tales'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:11.jpg', desc: '', title: 'The Seer'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:12.jpg', desc: '', title: 'Shimon'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:13.jpg', desc: '', title: 'Elfa'},
-            {url: '../Images/Personal-Art/by_sicilianvalkyrie:14.jpg', desc: '', title: 'Dark Elf Assassin'}
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:2.jpg',
+            desc: 'just a little granny',
+            title: 'Granny Cheesecake'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:3.jpg',
+            desc: '',
+            title: 'The Ghost Woman'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:4.jpg',
+            desc: 'My friend Natisha',
+            title: 'Portrait of Natisha'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:5.jpg',
+            desc: 'A gift for a friend',
+            title: 'Elly vs Fangirls'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:6.jpg',
+            desc: 'From the Time of the Twins a fantasy novel in the Dragonlance series written by Margaret Weis and Tracy Hickman.',
+            title: 'Rastiln & Crysania'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:7.jpg',
+            desc: '',
+            title: 'Druid'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:8.jpg',
+            desc: 'Oil practice',
+            title: 'Waterhouse'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:9.jpg',
+            desc: '',
+            title: 'Dark Elf Sketch'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:10.jpg',
+            desc: '',
+            title: 'Adventurers Tales'},
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:11.jpg',
+            desc: '',
+            title: 'The Seer'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:12.jpg',
+            desc: '',
+            title: 'Shimon'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:13.jpg',
+            desc: '',
+            title: 'Elfa'
+            },
+            {
+            url: '../Images/Personal-Art/by_sicilianvalkyrie:14.jpg',
+            desc: '',
+            title: 'Dark Elf Assassin'
+            }
         ]
      $scope.commissions = 
         [      
-            {url: '../Images/Commissions/by_sicilianvalkyrie:1.jpg', desc: '', title: 'Could you Help Me (Night)', client: 'jcbryan', testimonial: 'she\'\s great!!'},
-            {url: '../Images/Commissions/by_sicilianvalkyrie:2.jpg', desc: '', title: 'Could you Help Me', client: '', testimonial: ''},
-            {url: '../Images/Commissions/by_sicilianvalkyrie:3.jpg', desc: '', title: 'The Focal Pointers', client: '', testimonial: ''},
-            {url: '../Images/Commissions/by_sicilianvalkyrie:4.jpg', desc: '', title: 'The Ragers', client: '', testimonial: ''},
-            {url: '../Images/Commissions/by_sicilianvalkyrie:5.jpg', desc: '', title: 'Warrior', client: '', testimonial: ''},
-            {url: '../Images/Commissions/by_sicilianvalkyrie:6.jpg', desc: '', title: 'A willing Prey', client: '', testimonial: ''},
-            {url: '../Images/Commissions/by_sicilianvalkyrie:7.jpg', desc: '', title: 'Aesha Gorani', client: '', testimonial: ''},
+            {
+            url: '../Images/Commissions/by_sicilianvalkyrie:1.jpg', 
+            desc: '', 
+            title: 'Could you Help Me (Night)', 
+            client: 'jcbryan', 
+            testimonial: 'she\'\s great!!'
+            },
+            {
+            url: '../Images/Commissions/by_sicilianvalkyrie:2.jpg',
+            desc: '',
+            title: 'Could you Help Me',
+            client: '',
+            testimonial: ''
+            },
+            {
+            url: '../Images/Commissions/by_sicilianvalkyrie:3.jpg',
+            desc: '',
+            title: 'The Focal Pointers',
+            client: '',
+            testimonial: ''
+            },
+            {
+            url: '../Images/Commissions/by_sicilianvalkyrie:4.jpg',
+            desc: '',
+            title: 'The Ragers',
+            client: '',
+            testimonial: ''
+            },
+            {
+            url: '../Images/Commissions/by_sicilianvalkyrie:5.jpg',
+            desc: '',
+            title: 'Warrior',
+            client: '',
+            testimonial: ''
+            },
+            {
+            url: '../Images/Commissions/by_sicilianvalkyrie:6.jpg',
+            desc: '',
+            title: 'A willing Prey',
+            client: '',
+            testimonial: ''
+            },
+            {
+            url: '../Images/Commissions/by_sicilianvalkyrie:7.jpg',
+            desc: '',
+            title: 'Aesha Gorani',
+            client: '',
+            testimonial: ''
+            },
             {url: '../Images/Commissions/by_sicilianvalkyrie:8.jpg', desc: '', title: 'Autumn', client: '', testimonial: ''},
             {url: '../Images/Commissions/by_sicilianvalkyrie:9.jpg', desc: '', title: 'Beer Night', client: '', testimonial: ''},
             {url: '../Images/Commissions/by_sicilianvalkyrie:10.jpg', desc: '', title: 'Bird of Prey', client: '', testimonial: ''},
