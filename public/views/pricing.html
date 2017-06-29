@@ -1,6 +1,6 @@
 <navigation></navigation>
 
-<div class="container">
+<div class="container" ng-controller='pricingCtrl'>
   <div class="pricing-page-header">
     <h2>Submit a Commission</h2>
   </div>
@@ -11,12 +11,12 @@
   <h4 style="text-align: left; color: #E91E63; padding-top: 10px;">* this price is an estimate only</h4>
   <p style="text-align: center; font-size: medium">$ changes as  to criteria</p>
 </div>
-    
+
 <div class="customer-form">
-  
+
   <form ng-submit="vm.onSubmit()">
       <!--will link art example url/s for selected art type and populate a base price in designated field-->
-      <div class="form-group">
+    <div class="form-group">
       <label for="ArtType">Art Type</label>
       <input type="text" class="form-control" placeholder="Select an Art Type" ng-model="vm.newCommission.ArtType" required>
     </div>

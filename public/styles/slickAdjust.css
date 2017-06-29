@@ -1,0 +1,35 @@
+.featured-images.ng-scope.slick-slide.slick-current.slick-active:hover img{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.slick-prev {
+  left: 26%;
+}
+
+.slick-next {
+  right: 26%
+}
+.slick-container{
+    background-color: rgba(0,0,0,0.5);
+    height: 650px;
+    /*margin: 25px 24px;
+    padding-top: 5px;*/
+}
+
+.slick-list {
+  height: inherit;
+}
+
+.slick-slider {
+  height: inherit;
+}
+
+.slick-slide {
+  margin: 0 5vw;
+  opacity: 0.50;
+}
+
+.slick-active {
+  opacity: 1;
+}

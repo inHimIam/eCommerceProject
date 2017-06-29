@@ -1,5 +1,5 @@
 <navigation></navigation>
-<div class="main" ng-controller="imagesCtrl">
+<div class="main" ng-controller="registerCtrl">
   <section class="register-container">
       <div class="register-page-header"></div>
         <h2>Register</h2>
@@ -24,20 +24,20 @@
         <h1>Or, sign in with Facebook</h1>
           <div>
             <button type="" class="btn btn-info">Facebook.com</button>
-          </div> <!-- end Facebook login button-->     
-      </div> <!-- end sign-in-FB --> 
+          </div> <!-- end Facebook login button-->
+      </div> <!-- end sign-in-FB -->
   </section> <!-- end register-container -->
-  <section class="testimonial-container">
+  <section class="testimonial-container" ng-controller="imagesCtrl">
       <h1>Meet my customers!</h1>
       <div class="testimonial-carousel">
         <div class="carousel-wrapper-outer">
           <div class="carousel-wrapper">
             <slick ng-if="dataLoaded" init-onload="false" data="dataLoaded" class="customer"
                 infinite=true
-                centerMode=false
+                centerMode=true
                 arrows=false
-                slidesToShow=1
-                slidesToScroll=1
+                slidesToShow=3
+                slidesToScroll=3
                 autoplay=true
                 fade=true
                 speed=2500
@@ -48,7 +48,7 @@
                 <img src="{{ image.url }}" alt="">
               <div class="customer-comments">
                 <h1>{{ image.client }}</h1>
-                <p>{{ image.testimonial }} Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit placeat nisi ratione mollitia voluptate! Perspiciatis dicta, quis distinctio, expedita odit dolorem laboriosam. Soluta dignissimos repellat commodi dolore nam, sunt quibusdam.</p>
+                <p>{{ image.testimonial }}</p>
               </div> <!-- end customer-image-container end ng-repeat-->
               </div> <!-- end-customer-comments -->
             </slick> <!-- end customer -->

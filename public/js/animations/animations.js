@@ -1,10 +1,12 @@
 $(document).ready(function(){
-        
-$('.slick-container').slick({
-  dots: false,
+
+$('.center').slick({
+  dots: true,
   centerMode: true,
+  infinite: true,
   centerPadding: '60px',
   slidesToShow: 3,
+  variableWidth: true,
   responsive: [
     {
       breakpoint: 768,
@@ -40,7 +42,7 @@ $('.slick-container').slick({
         //     $('.tweet-compose').css('height', '5em');
         //     var count = 140 - $('.tweet-compose').val().length;
         //     if (count <= 140) {
-                
+
         //         $('#tweet-submit').prop('disabled', 'false');
 
         //      } else {
@@ -48,18 +50,18 @@ $('.slick-container').slick({
 
         //  }
         //      });
-        
+
         // $('.tweet-compose').keyup(function(){
         //     var count = 140 - $(this).val().length;
         //     $('#char-count').html(count);
-            
+
         //     if (count < 10) {
         // $('#char-count').css('color', 'red');
         // } else {
         //     $('#char-count').css('color', 'inherit');
         // };
-        
-        // $()        
+
+        // $()
         // if (count <= 140) { console.log(count)
         //     $('#tweet-submit').prop('disabled', 'true');
         // } else {

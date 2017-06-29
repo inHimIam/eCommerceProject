@@ -1,61 +1,60 @@
 <navigation></navigation>
 
 <section class="main-content" ng-controller="imagesCtrl">
-    <div>
-        
     <div class="heading"><h4>Commissions</h4></div> <!-- end commissions title -->
     <div class="my-carousel">
         <div class="slick-container">
-            <slick ng-if="dataLoaded" init-onload="false" data="dataLoaded"
-                infinite=true>
-                <div class="featured-images" ng-repeat="image in commissions" >
+            <slick
+              ng-if="dataLoaded"
+              init-onload="false"
+              data="dataLoaded"
+              slides-to-show=1
+              variable-width=true
+              center-mode=true
+              center-padding="60px"
+              autoplay=true
+              speed=2500
+              autoplaySpeed=2800>
+                <div class="featured-images center" ng-repeat="image in commissions">
+                    <card-description
+                        image="image"
+                        title="image.title"
+                        description="image.desc">
+                    </card-description>
                     <a href="{{ image.url }}">
-                        <img class="" ng-src="{{ image.url }}" alt="" />
+                        <img class="" ng-src="{{ image.url }}" alt=""/>
                     </a>
-                    <div class="desc-container">
-                        <button type="button" ng-click="description()" class="title desc-button">
-                        {{ image.title }}
-                        </button>
-                        <div ng-show="showDesc" class="dropdown-desc">{{ image.desc }}
-                        </div> <!-- end ng-showDesc -->
-                    </div> <!-- end desc-container-->
-                </div> <!-- end ng-repeat, end image-list -->
+                </div> <!-- end ng-repeat, end featured-images -->
             </slick> <!-- end slick carousel -->
         </div> <!-- end slick-container -->
     </div> <!-- end my-carousel -->
-        <div class="heading"><h4>Personal</h4></div> <!-- end personal title -->
+    <div class="heading"><h4>Personal</h4></div> <!-- end personal title -->
     <div class="my-carousel">
         <div class="slick-container">
-            <div class="image-container">            
             <slick
-                infinite=true
-                slides-to-show=3
-                slides-to-scroll=1
-                centerMode=true
-                init-onload=true
-                autoplay=true
-                fade=true
-                speed=2500
-                autoplaySpeed=2800
-                variableWidth=true
-                >
-                <div class="featured-images" ng-repeat="image in personal_art" >
+              ng-if="dataLoaded"
+              init-onload="false"
+              data="dataLoaded"
+              slides-to-show=1
+              variable-width=true
+              center-mode=true
+              center-padding="60px"
+              autoplay=true
+              speed=2500
+              autoplaySpeed=2800>
+              <card-description
+                      image="image"
+                      title="image.title"
+                      description="image.desc">
+                    </card-description>
+                <div class="featured-images" ng-repeat="image in personal_art">
                     <a href="{{ image.url }}">
-                        <img class="image" ng-src="{{ image.url }}" alt="{{ image.title }}" />
+                        <img class="" ng-src="{{ image.url }}" alt=""/>
                     </a>
-                    <div class="desc-container">
-                        <button type="button" ng-click="description()" class="title desc-button">
-                        {{ image.title }}
-                        </button>
-                        <div ng-show="showDesc" class="dropdown-desc">{{ image.desc }}
-                        </div> <!-- end ng-showDesc -->
-                    </div> <!-- end desc-container-->
-                </div> <!-- end ng-repeat, end featured-images-->
+                </div> <!-- end ng-repeat, end featured-images -->
             </slick> <!-- end slick carousel -->
-            </div> <!-- end image-container -->
-        </div> <!--end slick-container-->
+        </div> <!-- end slick-container -->
     </div> <!-- end my-carousel -->
-    </div> <!-- end ng-controller imagesCtrl -->
     <div class="heading"><h4>My Story</h4></div> <!-- end the Artist title -->
     <div class="about-container">
             <ul class="artist-bio-name">
@@ -70,7 +69,7 @@
         </div>
     </div> <!-- end about-container -->
     <div class="clients-container">
-        <div class="testimonials">            
+        <div class="testimonials">
         </div>
     </div> <!-- end clients-container -->
 </section> <!-- end main-content -->

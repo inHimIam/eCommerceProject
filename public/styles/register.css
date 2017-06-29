@@ -1,8 +1,5 @@
-.container-right {
-
-}
-.container-left {
-
+.main {
+    background-color: rgba(200,200,195,0.45);
 }
 .lead {
     margin: 2px;
