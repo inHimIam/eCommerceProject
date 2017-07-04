@@ -4,20 +4,25 @@
   transform: scale(1.1);
 }
 .slick-prev {
-  left: 26%;
+  /*left: 26%;*/
 }
 
 .slick-next {
-  right: 26%
+  /*right: 26%*/
 }
 .slick-container{
     background-color: rgba(0,0,0,0.5);
-    height: 650px;
+    height: 670px;
     /*margin: 25px 24px;
     padding-top: 5px;*/
 }
 
 .slick-list {
+  height: inherit;
+  top: 5px;
+}
+
+.slick-track {
   height: inherit;
 }
 
@@ -28,6 +33,7 @@
 .slick-slide {
   margin: 0 5vw;
   opacity: 0.50;
+  height: auto;
 }
 
 .slick-active {

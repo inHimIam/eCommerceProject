@@ -1,23 +1,20 @@
 <navigation></navigation>
 
-  <div class="login-main" ng-controller="loginCtrl">
-<div class="container">
+<div class="login-main" ng-controller="loginCtrl">
+  <div class="container">
     <h2>Login</h2>
-  </div>
-  <div class="login-page-header">
-    <img src="./Images/Commissions/by_sicilianvalkyrie:1.jpg" alt="">
+    <div class="login-page-header"></div>
     <p class="lead">Not a member? Please <a href="/#/register">register</a> instead.</p>
-
     <form ng-submit="vm.onSubmit()">
       <div class="form-group">
         <label for="email">Email address</label>
         <input type="email" class="form-control" placeholder="Enter email" ng-model="vm.credentials.email" required>
-      </div>
+      </div> <!-- end form-group Email -->
       <div class="form-group">
         <label for="password">Password</label>
         <input type="password" class="form-control" placeholder="Password" ng-model="vm.credentials.password" required>
-      </div>
+      </div> <!-- end form-group Password -->
       <button type="submit" class="btn btn-info">Login</button>
     </form>
-  </div>
-</div>
+  </div> <!-- end container -->
+</div> <!-- end login-main loginCtrl -->

@@ -37,7 +37,7 @@
                 centerMode=true
                 arrows=false
                 slidesToShow=3
-                slidesToScroll=3
+                slidesToScroll=1
                 autoplay=true
                 fade=true
                 speed=2500
@@ -46,10 +46,10 @@
                 dots=false>
               <div class="customer-image-container" ng-repeat="image in commissions">
                 <img src="{{ image.url }}" alt="">
-              <div class="customer-comments">
-                <h1>{{ image.client }}</h1>
-                <p>{{ image.testimonial }}</p>
-              </div> <!-- end customer-image-container end ng-repeat-->
+                <div class="customer-comments">
+                  <h1>{{ image.client }}</h1>
+                  <p>{{ image.testimonial }}</p>
+                </div> <!-- end customer-image-container end ng-repeat-->
               </div> <!-- end-customer-comments -->
             </slick> <!-- end customer -->
           </div> <!-- end caousel-wrapper -->

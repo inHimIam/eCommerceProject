@@ -21,6 +21,8 @@ h4 {
 .my-carousel {
     position: relative;
     border: 3px solid goldenrod;
+    border-right: none;
+    border-left: none;
     background: #787B85;
     background-color: rgba(200,200,195,0.45);
 }
@@ -33,7 +35,6 @@ h4 {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     /*margin: 0 auto;*/
-    margin-bottom: 10px;
     border-radius: 8px;
     background: black;
     padding: 8px;
@@ -50,6 +51,7 @@ h4 {
     border-radius: 3px;
     text-align: center;
     margin: 0 auto;
+    height: auto;
     width: 345px;
 }
 .title {
@@ -57,6 +59,7 @@ h4 {
     background-color: transparent 2;
 }
 .desc-button {
+  height: 30px;
     outline: none;
     position: relative;
     background: #d3cfc6;

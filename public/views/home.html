@@ -5,9 +5,10 @@
     <div class="my-carousel">
         <div class="slick-container">
             <slick
-              ng-if="dataLoaded"
-              init-onload="false"
+              arrows:"false"
               data="dataLoaded"
+              ng-if="dataLoaded"
+              init-onload="true"
               slides-to-show=1
               variable-width=true
               center-mode=true
@@ -22,7 +23,7 @@
                         description="image.desc">
                     </card-description>
                     <a href="{{ image.url }}">
-                        <img class="" ng-src="{{ image.url }}" alt=""/>
+                        <img class="" ng-src="{{ image.url }}" alt="oops"/>
                     </a>
                 </div> <!-- end ng-repeat, end featured-images -->
             </slick> <!-- end slick carousel -->
@@ -32,6 +33,7 @@
     <div class="my-carousel">
         <div class="slick-container">
             <slick
+              arrows:"false"
               ng-if="dataLoaded"
               init-onload="false"
               data="dataLoaded"
@@ -41,15 +43,15 @@
               center-padding="60px"
               autoplay=true
               speed=2500
-              autoplaySpeed=2800>
-              <card-description
-                      image="image"
-                      title="image.title"
-                      description="image.desc">
+              autoplaySpeed=2900>
+                <div class="featured-images center" ng-repeat="image in personal_art">
+                    <card-description
+                        image="image"
+                        title="image.title"
+                        description="image.desc">
                     </card-description>
-                <div class="featured-images" ng-repeat="image in personal_art">
                     <a href="{{ image.url }}">
-                        <img class="" ng-src="{{ image.url }}" alt=""/>
+                        <img class="" ng-src="{{ image.url }}" alt="oops"/>
                     </a>
                 </div> <!-- end ng-repeat, end featured-images -->
             </slick> <!-- end slick carousel -->
