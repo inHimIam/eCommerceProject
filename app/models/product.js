@@ -9,7 +9,8 @@ var productSchema = new mongoose.Schema({
         type: String,
         unique: true,
         required: true,
-        index: true
+        enum: ['Black & White', 'CGI', 'pencil'],
+        // index: true
     },
 
     Description: 

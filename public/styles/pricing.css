@@ -1,14 +1,16 @@
+.customer-form {
+    display: inline-block;
+    width: 30%;
+}
 .criteria-example {
-    position: absolute;
-    left: 380px;
-    top: 75px;
-    height: 500px;
-    width: 1000px;
+    position: relative;
+    float: right;
+    height: 650px;
+    width: 70%;
 }
 .criteria-example img {
-    height: 500px;
-    width: 1000px;
-    padding-right: 100px;
+    height: 650px;
+    width: auto;
 }
 .selectpicker {
     display: block;

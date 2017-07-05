@@ -4,11 +4,11 @@
   transform: scale(1.1);
 }
 .slick-prev {
-  /*left: 26%;*/
+  left: 0px;
 }
 
 .slick-next {
-  /*right: 26%*/
+  right: 0px;
 }
 .slick-container{
     background-color: rgba(0,0,0,0.5);
