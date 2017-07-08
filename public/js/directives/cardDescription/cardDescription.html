@@ -1,6 +1,10 @@
 <div class="desc-container">
     <button type="button" ng-click="description()" class="title desc-button">
-    {{ title }}<br><span class="caret-desc"></span></br>
+    {{ title }}
+      <a data-pin-do="buttonPin" data-pin-round="true" data-pin-save="false" href="https://www.pinterest.com/pin/create/button/?url=https://shrouded-retreat-99795.herokuapp.com/&media=&description=">
+        <img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_round_red_16.png"/>
+      </a>
+      <br><span class="caret-desc"></span></br>
     </button>
     <div ng-show="showDesc" class="dropdown-desc">{{ description }}
     </div> <!-- end ng-showDesc -->

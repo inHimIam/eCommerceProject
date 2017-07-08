@@ -23,7 +23,7 @@
                         description="image.desc">
                     </card-description>
                     <a href="{{ image.url }}">
-                        <img class="" ng-src="{{ image.url }}" alt="oops"/>
+                        <img class="" ng-src="{{ image.url }}" alt="{{img.title}}"/>
                     </a>
                 </div> <!-- end ng-repeat, end featured-images -->
             </slick> <!-- end slick carousel -->
@@ -51,7 +51,7 @@
                         description="image.desc">
                     </card-description>
                     <a href="{{ image.url }}">
-                        <img class="" ng-src="{{ image.url }}" alt="oops"/>
+                        <img class="" ng-src="{{ image.url }}" alt="{{image.title}}"/>
                     </a>
                 </div> <!-- end ng-repeat, end featured-images -->
             </slick> <!-- end slick carousel -->
@@ -74,4 +74,15 @@
         <div class="testimonials">
         </div>
     </div> <!-- end clients-container -->
+    <div class="footer-container">
+      <p>Contact me</p>
+      <p>connect with me</p>
+      <ul>
+        <li>Facebook</li>
+        <li>Linkedin</li>
+        <li>Twitter</li>
+        <li>Pinterest</li>
+      </ul>
+
+    </div> <!-- end footer-container -->
 </section> <!-- end main-content -->

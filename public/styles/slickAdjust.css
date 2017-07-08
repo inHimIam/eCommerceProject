@@ -11,10 +11,19 @@
   right: 0px;
 }
 .slick-container{
-    background-color: rgba(0,0,0,0.5);
-    height: 670px;
-    /*margin: 25px 24px;
-    padding-top: 5px;*/
+  background-color: rgba(0,0,0,0.5);
+  height: 670px;
+  /*margin: 25px 24px;
+  padding-top: 5px;*/
+}
+.slick-list.draggable {
+  background: url(../Images/Logo/LOGO-VALKYRIE-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -70px;
+  background-position-x: 155px;
+  background-size: 955px 785px;
+  top: 0px;
 }
 
 .slick-list {

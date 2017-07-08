@@ -10,8 +10,10 @@
     width: 30%;
     margin: 2px;
 }
+}
 .testimonial-container {
-    float: right;
+    float: left;
+    height: 600px;
     width: 69%;
     margin: 2px;
     text-align: center;
@@ -34,9 +36,14 @@
     border-top: none;
     /*margin: 0 30px;*/
 }
-.slick-slider {
-}
-.slick-list {
+.slick-list.draggable {
+    background: url(../Images/Logo/LOGO-VALKYRIE-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -70px;
+    background-size: 900px 700px;
+    top: 0px;
+}.slick-list {
     top: 10px;
 }
 .slick-prev:before, .slick-next:before {
@@ -45,11 +52,9 @@
 .customer {
     background: black;
 }
-.customer-image-container {
-    /*margin-top: 20px;*/
-}
 .customer-image-container img{
     margin: 0 auto;
+    margin-top:12%;
     width: auto;
     height: 400px;
 }
@@ -59,7 +64,6 @@
     border-radius: 10px;
 }
 .button {
-
     color: #fff;
     background-color: #5bc0de;
     border-color: #46b8da;

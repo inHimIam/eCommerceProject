@@ -27,7 +27,9 @@
           </div> <!-- end Facebook login button-->
       </div> <!-- end sign-in-FB -->
   </section> <!-- end register-container -->
-  <section class="testimonial-container" ng-controller="imagesCtrl">
+  <section class="testimonial-container" ng-controller="imagesCtrl" style="width: 69%;
+    float: left;
+    text-align: center;">
       <h1>Meet my customers!</h1>
       <div class="testimonial-carousel">
         <div class="carousel-wrapper-outer">
@@ -36,12 +38,12 @@
                 infinite=true
                 centerMode=true
                 arrows=false
-                slidesToShow=3
+                slidesToShow=1
                 slidesToScroll=1
                 autoplay=true
                 fade=true
-                speed=2500
-                autoplaySpeed=2800
+                speed=4500
+                autoplaySpeed=4000
                 variableWidth=true
                 dots=false>
               <div class="customer-image-container" ng-repeat="image in commissions">
@@ -49,11 +51,11 @@
                 <div class="customer-comments">
                   <h1>{{ image.client }}</h1>
                   <p>{{ image.testimonial }}</p>
-                </div> <!-- end customer-image-container end ng-repeat-->
-              </div> <!-- end-customer-comments -->
-            </slick> <!-- end customer -->
-          </div> <!-- end caousel-wrapper -->
+                </div> <!-- end customer-comments end ng-repeat-->
+              </div> <!-- end-customer-image-container -->
+            </div> <!-- end caousel-wrapper -->
+          </slick> <!-- end customer -->
         </div> <!-- end  carusel-wrapper-outer-->
       </div><!-- end testimonial-carousel -->
   </section> <!-- end testimonial -->
-</div>
+</div> <!-- end main -->
