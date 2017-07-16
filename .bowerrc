@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
   "directory": "public/bower_components"
+=======
+  "directory": "libs"
+>>>>>>> fb89182c85e823fb3856f8ff4f34469adae2734e
 }
