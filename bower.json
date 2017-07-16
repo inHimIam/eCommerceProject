@@ -2,6 +2,9 @@
   "name": "art-site",
   "description": "ART OF PATRICIA LEONARDO CAVALEIRI",
   "main": "index.js",
+  "engines": {
+    "node": "6.2.2"
+  },
   "authors": [
     "Justin Bryant"
   ],
