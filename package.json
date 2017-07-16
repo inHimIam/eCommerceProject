@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,6 @@
   },
   "homepage": "https://github.com/inHimIam/eCommerceProject#README",
   "dependencies": {
-    "bower": "0.6.x",
     "body-parser": "1.15.2",
     "cors": "2.7.1",
     "crypto": "0.0.3",
