@@ -15,3 +15,7 @@
 .selectpicker {
     display: block;
 }
+.contact {
+    display: inline;
+    line-height: 20px;
+}
