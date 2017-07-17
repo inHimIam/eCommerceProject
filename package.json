@@ -4,7 +4,8 @@
   "description": "ART OF PATRICIA LEONARDO CAVALEIRI",
   "main": "index.js",
   "engines": {
-    "node": "6.2.2"
+    "node": "6.2.2",
+    "npm": "3.9.5"
   },
   "devDependencies": {
     "bower": "^1.8.0"
