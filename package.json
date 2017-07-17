@@ -10,9 +10,9 @@
   "devDependencies": {
     "bower": "^1.8.0"
   },
-    "scripts": {
+  "scripts": {
     "start": "node index.js",
-    "postinstall" : "node ./node_modules/bower/bin/bower install"
+    "postinstall": "node ./node_modules/bower/bin/bower install"
   },
   "repository": {
     "type": "git",
@@ -25,9 +25,6 @@
   ],
   "author": "Justin Bryant",
   "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
   "homepage": "https://github.com/inHimIam/eCommerceProject#README",
   "dependencies": {
     "bower": "^1.8.0",
@@ -41,5 +38,8 @@
     "morgan": "1.7.0",
     "passport": "0.3.2",
     "passport-local": "1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/inHimIam/eCommerceProject/issues"
   }
 }
