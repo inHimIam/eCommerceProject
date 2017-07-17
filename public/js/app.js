@@ -2,6 +2,7 @@
   angular.module('artistApp', ['ngRoute', 'slickCarousel']);
 
   function config ($routeProvider, $locationProvider) {
+    $locationProvider.hashPrefix('');
     $routeProvider
       .when('/', {
         templateUrl: './views/home.html',
