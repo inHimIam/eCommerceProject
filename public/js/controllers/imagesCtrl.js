@@ -79,35 +79,35 @@
               url: '../Images/Commissions/by_sicilianvalkyrie:1.jpg',
               desc: '',
               title: 'Could you Help Me (Night)',
-              client: 'jcbryan',
+              client: '"Ulstermuse" (Deviantart)',
               testimonial: 'she\'\s great!!'
               },
               {
               url: '../Images/Commissions/by_sicilianvalkyrie:2.jpg',
               desc: '',
               title: 'Could you Help Me',
-              client: 'Ohio Lio',
+              client: '"Ulstermuse" (Deviantart)',
               testimonial: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
               },
               {
               url: '../Images/Commissions/by_sicilianvalkyrie:3.jpg',
               desc: '',
               title: 'The Focal Pointers',
-              client: '',
+              client: 'Rochard Scott: "The Destiny Saga"',
               testimonial: ''
               },
               {
               url: '../Images/Commissions/by_sicilianvalkyrie:4.jpg',
               desc: '',
               title: 'The Ragers',
-              client: '',
+              client: 'Rochard Scott: "The Destiny Saga"',
               testimonial: ''
               },
               {
               url: '../Images/Commissions/by_sicilianvalkyrie:5.jpg',
               desc: '',
               title: 'Warrior',
-              client: '',
+              client: '"ThatOddOne" (Deviantart)',
               testimonial: ''
               },
               {

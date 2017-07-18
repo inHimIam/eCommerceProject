@@ -26,7 +26,16 @@ h4 {
     background: #787B85;
     background-color: rgba(200,200,195,0.45);
 }
-
+.slick-list.draggable {
+  background: url(../Images/Logo/LOGO-VALKYRIE-2.png);
+  background-repeat: no-repeat;
+  /*background-color: aliceblue;*/
+  background-position: center;
+  background-position-y: -80px;
+  background-position-x: 48%;
+  background-size: 925px 815px;
+  top: 0px;
+}
 .featured-images img{
   position: relative;
   top:30px;

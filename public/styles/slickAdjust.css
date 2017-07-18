@@ -3,29 +3,10 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.slick-prev {
-  left: 0px;
-}
-
-.slick-next {
-  right: 0px;
-}
 .slick-container{
   background-color: rgba(0,0,0,0.5);
-  height: 670px;
-  /*margin: 25px 24px;
-  padding-top: 5px;*/
+  height: 695px;
 }
-.slick-list.draggable {
-  background: url(../Images/Logo/LOGO-VALKYRIE-2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: -70px;
-  background-position-x: 155px;
-  background-size: 955px 785px;
-  top: 0px;
-}
-
 .slick-list {
   height: inherit;
   top: 5px;

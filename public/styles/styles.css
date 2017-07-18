@@ -14,25 +14,6 @@ dropdown-toggle {
     border-left: 4px solid transparent;
     position: relative;
 }
-.caret-left {
-    display: inline-block;
-    margin-right: 6px;
-    border-right: 6px dashed;
-    vertical-align: middle;
-    border-top: 6px solid transparent;
-    border-left: 2px solid transparent;
-    border-bottom: 6px solid transparent
-
-}
-.caret-right {
-    display: inline-block;
-    margin-left: 6px;
-    border-left: 6px dashed;
-    vertical-align: middle;
-    border-bottom: 6px solid transparent;
-    border-right: 2px solid transparent;
-    border-top: 6px solid transparent;
-}
 #navbar {
     width: 100%;
     margin-top: 0;
@@ -62,11 +43,12 @@ dropdown-toggle {
     position: absolute;
     width: 500px;
     left: 30%;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 10px;
     margin-right: 10px;
     color: whitesmoke;
     font-size: 22px;
+    line-height: 30px;
 }
 .artist-logo img{
     float: left;
@@ -89,4 +71,5 @@ h2 {
 }
 .artist-name {
     font-size: 28px;
+    font-family: cursive;
 }

@@ -10,7 +10,6 @@
     width: 30%;
     margin: 2px;
 }
-}
 .testimonial-container {
     float: left;
     height: 600px;
@@ -41,7 +40,8 @@
     background-position-y: -70px;
     background-size: 900px 700px;
     top: 0px;
-}.slick-list {
+}
+.slick-list {
     top: 10px;
 }
 .slick-prev:before, .slick-next:before {

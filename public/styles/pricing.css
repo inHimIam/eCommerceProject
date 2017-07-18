@@ -10,7 +10,7 @@
 }
 .criteria-example img {
     height: 650px;
-    width: auto;
+    width: 100%;
 }
 .selectpicker {
     display: block;

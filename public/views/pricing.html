@@ -17,9 +17,12 @@
       <div class="form-group">
         <label for="ArtType">Art Type</label>
         <select type="text" class="form-control" placeholder="Select an Art Type" ng-model="vm.newCommission.ArtType" class="selectpicker" required>
-          <option>Black and White</option>
-          <option>CGI</option>
-          <option>Pencil</option>
+          <option>Portrait Sketch Monochrome</option>
+          <option>Portrait Sketch Flat</option>
+          <option>Line Art</option>
+          <option>Inked Sketch + Monochrome Texture/Shadow</option>
+          <option>Cartoon Color</option>
+          <option>Full Color CGI</option>
         </select>
       </div>
       <div class="form-group">
@@ -35,6 +38,7 @@
         <label for="Background">Select a background option</label>
           <select ng-model="vm.newCommission.Background" class="selectpicker">
           <option>No-background</option>
+          <option>Monochrome</option>
           <option>Simple-background</option>
           <option>Complex-background</option>
         </select>
@@ -42,6 +46,7 @@
       <div class="form-group">
         <label for="UploadExample"> Upload an example image</label>
         <input type="text" class="form-control" placeholder="upload an example image here" ng-model="vm.newCommission.ExampleImage">
+        <button type="submit" class="btn btn-info" style="position: relative; right: 30px; bottom: 34px; float: right;">Upload</button>
       </div>
       <button type="submit" class="btn btn-info" style="position: relative; left: 70px; margin-bottom: 25px">Submit</button>
     </form>
