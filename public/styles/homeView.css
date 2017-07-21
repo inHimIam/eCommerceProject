@@ -29,7 +29,6 @@ h4 {
 .slick-list.draggable {
   background: url(../Images/Logo/LOGO-VALKYRIE-2.png);
   background-repeat: no-repeat;
-  /*background-color: aliceblue;*/
   background-position: center;
   background-position-y: -80px;
   background-position-x: 48%;
@@ -88,6 +87,11 @@ h4 {
     background: #d3cfc6 transparent;
     text-align: center;
 }
+.about-container {
+    background: #787B85;
+    background-color: rgba(0,0,0,0.5);
+    color: whitesmoke;
+}
 .artist-bio-name {
     width: 100%;
     margin-top: 10px;
@@ -105,6 +109,8 @@ h4 {
     font-family: fantasy;
 }
 .avatar {
+    position: relative;
+    bottom: 10px;
     text-align: center;
 
 }
@@ -113,17 +119,98 @@ h4 {
     width: 75px;
     border-radius: 40px;
 }
-#bio {
-    margin: 10px 90px;
+#artist-bio {
+
+}
+.bio {
+    position: relative;
+    bottom: 10px;
+    margin: 5px 90px;
+    margin-bottom: 0px;
     padding: 15px;
     border: 2px solid black;
     border-radius: 4px;
 }
 .footer-container {
-    background: #337ab7;
+    width: inherit;
+    background: #333;
     display: inline-flex;
 }
+.footer-connect {
+    margin-left: 5%;
+}
+.connect {
+    position: relative;
+    left: 40px;
+}
 .footer-container a {
+    text-align: center;
     text-decoration: none;
-    color: whitesmoke;
+    color: #e6e6e6;
+}
+.social li{
+    cursor: pointer;
+    border-radius: 3px;
+    height: 24px;
+    width: 24px;
+    float: left;
+    padding: 10px 0px 0px 10px;
+    margin: 5px 30px 15px 0px;
+    list-style-type: none;
+}
+.social-instagram {
+    background-image: url("../Images/Logo/glyphicons-social-33-instagram.png");
+    background-repeat: no-repeat;
+}
+li.social-instagram:hover {
+    background-color: #fbad50;
+    }
+.social-pinterest {
+    background-image: url("../Images/Logo/glyphicons-social-1-pinterest.png" );
+    background-repeat: no-repeat;
+}
+li.social-pinterest:hover {
+    background-color: rgb(189, 8, 28);
+}
+.social-deviant {
+    background-image: url("../Images/Logo/glyphicons-social-16-deviantart.png" );
+    background-repeat: no-repeat;
+
+}
+li.social-deviant:hover {
+    background-color: #05cc47;
+}
+.social-facebook {
+    background-image: url("../Images/Logo/glyphicons-social-31-facebook.png" );
+    background-repeat: no-repeat;
+
+}
+li.social-facebook:hover {
+    background-color: #3B5998;
+}
+.social-twitter {
+    background-image: url("../Images/Logo/glyphicons-social-32-twitter.png" );
+    background-repeat: no-repeat;
+
+}
+li.social-twitter:hover {
+    background-color: #326ada;
+}
+.social-linkedin {
+    background-image: url("../Images/Logo/glyphicons-social-18-linked-in.png" );
+    background-repeat: no-repeat;
+    width: 24px;
+    height:24px;
+
+}
+li.social-linkedin:hover {
+    background-color: #0077b5;
+}
+.links-to-art {
+    margin-left: 10%;
+}
+.copyright {
+    background-color: black;
+    text-align: center;
+    color: #9d9d9d;
 }

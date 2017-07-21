@@ -30,11 +30,21 @@
     }
     // function for providing sample image
     // take in customer input from newCommission and compare it to populate a sample image based //on criteria 
-    //if(vm.newCommission.ArtType == 'Black&White' && vm.newCommission.Background == simple-background && newCommission.NumberofCharachters == 2) { sampleImg ='./images/sample....'} if(vm.newCommission.ArtType == 'Inked' && vm.newCommission.Background == simple-background && newCommission.NumberofCharachters == 2)
-
-    //use for the sample image on pricing 
-        //   $scope.sampleImage = [
-        //       {background: '', artType: '', numChar: '', url: 'images/example....'}
-        //   ]
+    //var saveInput= (function(bkgd, artType, numCharacters){
+  //give options to customer via inputCriteria to make a choice
+  //var finalChoice = [bkgd, artType, numCharacters];
+  //overide inputCriteria with customer selected data and save it to an array
+  //return the array of customer data
+    //return function(){
+      //var savedData = [];
+      //var customerData= {background: '', art_Type: '', characters: ''};
+      //customerData.background= finalChoice[0];
+      //customerData.art_Type = finalChoice[1];
+      //customerData.characters= finalChoice[2];
+      //savedData.push(customerData);
+      //return savedData;
+    //};
+//})('complex', 'CGI', 3);
+//saveInput();
 
 })();
