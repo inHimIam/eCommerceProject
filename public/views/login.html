@@ -2,9 +2,8 @@
 
 <div class="login-main" ng-controller="loginCtrl">
   <div class="login-container">
-    <h2>Login</h2>
-    <div class="login-page-header"></div>
-    <p class="lead">Not a member? Please <a href="/#/register">register</a> instead.</p>
+    <h2 style="margin:0px; position: relative; top: 15px;">Login</h2>
+      <p class="lead">Not a member? Please <a href="/#/register">register</a> instead.</p>
     <form ng-submit="vm.onSubmit()">
       <div class="form-group">
         <label for="email">Email address</label>
@@ -16,5 +15,7 @@
       </div> <!-- end form-group Password -->
       <button type="submit" class="btn btn-info">Login</button>
     </form>
-  </div> <!-- end container -->
+  </div> <!-- end login-container -->
 </div> <!-- end login-main loginCtrl -->
+
+<myfooter></myfooter>

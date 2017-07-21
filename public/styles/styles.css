@@ -1,3 +1,4 @@
+
 dropdown-toggle {
     left: 50px;
 }
@@ -14,6 +15,7 @@ dropdown-toggle {
     border-left: 4px solid transparent;
     position: relative;
 }
+/*navigation*/
 #navbar {
     width: 100%;
     margin-top: 0;
@@ -72,4 +74,88 @@ h2 {
 .artist-name {
     font-size: 28px;
     font-family: cursive;
+}
+/* footer container*/
+.footer-container {
+    width: 100%;
+    background: #333;
+    display: inline-flex;
+}
+.footer-connect {
+    margin-left: 5%;
+}
+.connect {
+    color:whitesmoke;
+    text-align: center;
+}
+.footer-container a {
+    text-align: center;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.social li{
+    cursor: pointer;
+    border-radius: 3px;
+    height: 24px;
+    width: 24px;
+    float: left;
+    padding: 10px 0px 0px 10px;
+    margin: 5px 30px 15px 0px;
+    list-style-type: none;
+}
+.social-instagram {
+    background-image: url("../Images/Logo/glyphicons-social-33-instagram.png");
+    background-repeat: no-repeat;
+}
+li.social-instagram:hover {
+    background-color: #fbad50;
+    }
+.social-pinterest {
+    background-image: url("../Images/Logo/glyphicons-social-1-pinterest.png" );
+    background-repeat: no-repeat;
+}
+li.social-pinterest:hover {
+    background-color: rgb(189, 8, 28);
+}
+.social-deviant {
+    background-image: url("../Images/Logo/glyphicons-social-16-deviantart.png" );
+    background-repeat: no-repeat;
+
+}
+li.social-deviant:hover {
+    background-color: #05cc47;
+}
+.social-facebook {
+    background-image: url("../Images/Logo/glyphicons-social-31-facebook.png" );
+    background-repeat: no-repeat;
+
+}
+li.social-facebook:hover {
+    background-color: #3B5998;
+}
+.social-twitter {
+    background-image: url("../Images/Logo/glyphicons-social-32-twitter.png" );
+    background-repeat: no-repeat;
+
+}
+li.social-twitter:hover {
+    background-color: #326ada;
+}
+.social-linkedin {
+    background-image: url("../Images/Logo/glyphicons-social-18-linked-in.png" );
+    background-repeat: no-repeat;
+    width: 24px;
+    height:24px;
+
+}
+li.social-linkedin:hover {
+    background-color: #0077b5;
+}
+.links-to-art {
+    margin-left: 10%;
+}
+.copyright {
+    background-color: black;
+    text-align: center;
+    color: #9d9d9d;
 }

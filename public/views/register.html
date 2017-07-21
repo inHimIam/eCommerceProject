@@ -1,31 +1,37 @@
 <navigation></navigation>
 <div class="main" ng-controller="registerCtrl">
   <section class="register-container">
-      <div class="register-page-header"></div>
-        <h2>Register</h2>
-        <p class="lead">Already a member? Please <a href="/#/login">login</a> instead.</p>
-
-      <form ng-submit="vm.onSubmit()">
-        <div class="form-group">
-          <label for="name">Full name</label>
-          <input type="text" class="form-control" placeholder="Enter your name" ng-model="vm.credentials.name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email address</label>
-          <input type="email" class="form-control" placeholder="Enter email" ng-model="vm.credentials.email" required>
-        </div>
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input type="password" class="form-control" placeholder="Password" ng-model="vm.credentials.password" required>
-        </div>
-        <button type="submit" class="btn btn-info">Register</button>
-      </form>
-      <div class="sign-in-FB">
-        <h1>Or, sign in with Facebook</h1>
-          <div>
-            <button type="" class="btn btn-info">Facebook.com</button>
-          </div> <!-- end Facebook login button-->
-      </div> <!-- end sign-in-FB -->
+    <h1 style="margin-top: 5px;">Register</h1>
+    <p class="lead">Already a member? Please <a href="/#/login">login</a></p>
+    <form ng-submit="vm.onSubmit()">
+      <div class="form-group">
+        <label for="name">Full name</label>
+        <input type="text" class="form-control" placeholder="Enter your name" ng-model="vm.credentials.name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" placeholder="Enter email" ng-model="vm.credentials.email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" placeholder="Password" ng-model="vm.credentials.password" required>
+      </div>
+      <button type="submit" class="btn btn-info submit-button">Register</button>
+    </form>
+    <div class="connect">
+      <p style="font-size:20px; color: black;">Or sign in using your favorite Social media platform</p>
+      </div> <!-- end connect -->
+        <span class="social">
+          <ul>
+            <a href=""><li class="social-facebook"></li></a>
+            <a href=""><li class="social-instagram"></li></a>
+            <a href=""><li class="social-linkedin"></li></a>
+            <a href=""><li class="social-twitter"></li></a>
+            <a href=""><li class="social-pinterest"></li></a>
+            <a href="http://sicilianvalkyrie.deviantart.com/"><li class="social-deviant"></li></a>
+          </ul>
+        </span> <!-- end social -->
+    </div> <!-- end footer-connect -->
   </section> <!-- end register-container -->
   <section class="testimonial-container" ng-controller="imagesCtrl" style="width: 69%;
     float: left;
@@ -49,8 +55,8 @@
               <div class="customer-image-container" ng-repeat="image in commissions">
                 <img src="{{ image.url }}" alt="">
                 <div class="customer-comments">
-                  <h1>{{ image.client }}</h1>
-                  <p>{{ image.testimonial }}</p>
+                  <h3 class="client-username">{{ image.client }}</h3>
+                  <p class="client-statement">{{ image.testimonial }}</p>
                 </div> <!-- end customer-comments end ng-repeat-->
               </div> <!-- end-customer-image-container -->
             </div> <!-- end caousel-wrapper -->
@@ -59,3 +65,5 @@
       </div><!-- end testimonial-carousel -->
   </section> <!-- end testimonial -->
 </div> <!-- end main -->
+
+<myfooter></myfooter>
