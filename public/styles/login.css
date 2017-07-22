@@ -2,6 +2,29 @@
     background: #787B85;
     background-color: rgba(0,0,0,0.5);
 }
+
 .login-container {
     text-align: -webkit-center;
+}
+
+.login-connect {
+    height: 82px;
+}
+
+.login-social {
+    background: #787B85;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.login-social li{
+    position: relative;
+    left: 35%;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 24px;
+    width: 24px;
+    float: left;
+    padding: 10px 0px 0px 10px;
+    margin: 5px 30px 15px 0px;
+    list-style-type: none;
 }

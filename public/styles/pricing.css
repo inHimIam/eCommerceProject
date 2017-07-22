@@ -1,20 +1,26 @@
+.pricing-container {
+    background: #787B85;
+    background-color: rgba(0,0,0,0.5);
+}
+
 .customer-form {
     display: inline-block;
     width: 30%;
 }
+
 .criteria-example {
     position: relative;
     float: right;
     height: inherit;
     width: 70%;
 }
+
 .criteria-example img {
     height: 650px;
     width: 100%;
+    border: 5px solid black;
 }
-.selectpicker {
-    display: block;
-}
+
 .contact {
     display: inline;
     line-height: 20px;

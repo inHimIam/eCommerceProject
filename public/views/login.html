@@ -2,8 +2,8 @@
 
 <div class="login-main" ng-controller="loginCtrl">
   <div class="login-container">
-    <h2 style="margin:0px; position: relative; top: 15px;">Login</h2>
-      <p class="lead">Not a member? Please <a href="/#/register">register</a> instead.</p>
+    <h2 style="margin:0px; position: relative; top: 20px;">Login</h2>
+      <p class="lead">Not a member? Please <a href="/#/register">register</a></p>
     <form ng-submit="vm.onSubmit()">
       <div class="form-group">
         <label for="email">Email address</label>
@@ -13,8 +13,21 @@
         <label for="password">Password</label>
         <input type="password" class="form-control" placeholder="Password" ng-model="vm.credentials.password" required>
       </div> <!-- end form-group Password -->
-      <button type="submit" class="btn btn-info">Login</button>
+      <button type="submit" class="btn btn-info submit-button">Login</button>
     </form>
+    <div class="connect login-connect">
+      <p style="font-size:20px; color: black;">Or sign in using your favorite Social media platform</p>
+      <span class="login-social">
+        <ul>
+          <a href=""><li class="social-facebook"></li></a>
+          <a href=""><li class="social-instagram"></li></a>
+          <a href=""><li class="social-linkedin"></li></a>
+          <a href=""><li class="social-twitter"></li></a>
+          <a href=""><li class="social-pinterest"></li></a>
+          <a href="http://sicilianvalkyrie.deviantart.com/"><li class="social-deviant"></li></a>
+        </ul>
+      </span> <!-- end social -->
+    </div> <!-- end footer-connect -->
   </div> <!-- end login-container -->
 </div> <!-- end login-main loginCtrl -->
 

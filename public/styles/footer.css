@@ -1,0 +1,31 @@
+/* footer container*/
+.footer-container {
+    width: 100%;
+    background: #333;
+    display: inline-flex;
+}
+
+.footer-connect {
+    margin-left: 5%;
+}
+
+.connect {
+    color:whitesmoke;
+    text-align: center;
+}
+
+.footer-container a {
+    text-align: center;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+.links-to-art {
+    margin-left: 10%;
+}
+
+.copyright {
+    background-color: black;
+    text-align: center;
+    color: #9d9d9d;
+}

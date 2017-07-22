@@ -3,10 +3,12 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
 .slick-container{
   background-color: rgba(0,0,0,0.5);
   height: 695px;
 }
+
 .slick-list {
   height: inherit;
   top: 5px;

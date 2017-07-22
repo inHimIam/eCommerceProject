@@ -9,7 +9,7 @@ var productSchema = new mongoose.Schema({
         type: String,
         unique: true,
         required: true,
-        enum: ['Black & White', 'CGI', 'pencil'],
+        enum: ['Portrait Sketch Monochrome', 'Portrait Sketch', 'Flat Line Art', 'Inked Sketch + Monochrome Texture/Shadow', 'Cartoon Color', 'Full Color CGI'],
         // index: true
     },
 
@@ -27,7 +27,7 @@ var productSchema = new mongoose.Schema({
 
     Background: {
         type: String,
-        enum: ['No-background', 'Simple-background', 'Complex-background']
+        enum: ['No-background','Monochrome','Simple-background','Complex-background']
     },
 
     ExampleImage: 

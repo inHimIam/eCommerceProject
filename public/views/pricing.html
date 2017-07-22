@@ -1,6 +1,6 @@
 <navigation></navigation>
 
-<section class="container" ng-controller='pricingCtrl'>
+<section class="pricing-container" ng-controller='pricingCtrl'>
 
 <!--some code here to populate price as user makes changes-->
 
@@ -11,9 +11,9 @@
       <h3>Estimated Price</h3>
       <h4 style="text-align: left; color: #E91E63; padding-top: 10px;">* this price is an estimate only</h4>
       <p style="text-align: center; font-size: medium">$ changes as  to criteria</p>
-    </div> <!--  -->
+    </div> <!-- end-est-price -->
     <form ng-submit="vm.onSubmit()">
-        <!--will link art example url/s for selected art type and populate a base price in designated field-->
+<!--will link art example url/s for selected art type to populate base price in designated field-->
       <div class="form-group">
         <label for="ArtType">Art Type</label>
         <select type="text" class="form-control" placeholder="Select an Art Type" ng-model="vm.newCommission.ArtType" class="selectpicker" required>
@@ -24,16 +24,12 @@
           <option>Cartoon Color</option>
           <option>Full Color CGI</option>
         </select>
-      </div>
-      <div class="form-group">
-        <label for="Description">Describe your Commission</label>
-        <input type="text" class="form-control" id="description" placeholder="Describe your request" ng-model="vm.newCommission.Description" required>
-      </div>
+      </div> <!-- end form-group 1 -->
       <div class="form-group">
         <!--will change price field and populate an example url of an artwork-->
         <label for="NumberCharacters">How many Characters</label>
         <input type="number" class="form-control" placeholder="" ng-model="vm.newCommission.NumberCharacters">
-      </div>
+      </div> <!-- end form-group 2 -->
       <div class="form-group" >
         <label for="Background">Select a background option</label>
           <select ng-model="vm.newCommission.Background" class="selectpicker">
@@ -42,14 +38,18 @@
           <option>Simple-background</option>
           <option>Complex-background</option>
         </select>
-      </div>
+      </div> <!-- end form-group 3 -->
+      <div class="form-group">
+        <label for="Description">Describe your Commission</label>
+        <input type="text" class="form-control" id="description" placeholder="Describe your request" ng-model="vm.newCommission.Description" required>
+      </div> <!-- end form group 4 -->
       <div class="form-group">
         <label for="UploadExample"> Upload an example image</label>
         <input type="text" class="form-control" placeholder="upload an example image here" ng-model="vm.newCommission.ExampleImage">
-        <button type="submit" class="btn btn-info" style="position: relative; right: 30px; bottom: 34px; float: right;">Upload</button>
-      </div>
-      <button type="submit" class="btn btn-info" style="position: relative; left: 70px; margin-bottom: 25px">Submit</button>
-    </form>
+        <button type="submit" class="btn btn-info submit-button" style="position: relative; right: 95px; bottom: 32px; float: right;">Upload</button>
+      </div> <!-- end form-group 5 -->
+      <button type="submit" class="btn btn-info submit-button" style="position: relative; left: 70px; margin-bottom: 25px">Submit</button>
+    </form> <!-- end form ng-submit -->
       <h2 class="contact">Feel free to contact me with any additional details <a href="">jcbn@yahoo.com</a></h2>
 
   </div> <!-- end customer-form --> 
@@ -57,8 +57,9 @@
     <p style="text-align: center; margin-top: 10px">the image below will populate the Artwork examples based upon selected criteria to the left</p>
     <!--this field will populate the Artwork examples based upon selected criteria above-->
     <img src="./Images/Personal-Art/by_sicilianvalkyrie:6.jpg" alt="">
-  </div>
+  </div> <!-- end criteria-example -->
 
-</section>
+</section> <!-- end pricing-container -->
 
 <myfooter></myfooter>
+<!--  -->

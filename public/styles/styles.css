@@ -1,7 +1,8 @@
 
-dropdown-toggle {
+/*dropdown-toggle {
     left: 50px;
-}
+}*/
+
 .caret-desc {
     top: -10px;
     display: inline-block;
@@ -15,147 +16,63 @@ dropdown-toggle {
     border-left: 4px solid transparent;
     position: relative;
 }
-/*navigation*/
-#navbar {
-    width: 100%;
-    margin-top: 0;
+
+@media (max-width: 800px) {
+
 }
 
-.menu ::before{
-    left: 515px;
-}
-.navbar-inverse {
-    margin-bottom: 0px
-}
-.navbar-nav{
-    float: left;
-    margin: 0;
-    position: relative;
-    left: 25px;
-}
-.navbar-nav li {
-    right: 20px;
-}
-/*.navbar-right{
-    position: relative;
-    left: 0px;
-}*/
-.welcome-text {
+h4 {
+    margin: 0 auto;
     text-align: center;
-    position: absolute;
-    width: 500px;
-    left: 30%;
-    margin-top: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: whitesmoke;
-    font-size: 22px;
-    line-height: 30px;
-}
-.artist-logo img{
-    float: left;
-    width: 85px;
-    height: 64px;
-    position: relative;
-    padding: 3px;
-    padding-top: 0px;
-}
-.right-logo{
-top: -10px;
-}
-
-@media (max-width: 800px) {}
-.form-control {
-    width: 220px;
+    color: white;
+    padding-top: 5px;
 }
 h2 {
     line-height: 2px;
 }
-.artist-name {
-    font-size: 28px;
-    font-family: cursive;
-}
-/* footer container*/
-.footer-container {
-    width: 100%;
-    background: #333;
-    display: inline-flex;
-}
-.footer-connect {
-    margin-left: 5%;
-}
-.connect {
-    color:whitesmoke;
-    text-align: center;
-}
-.footer-container a {
-    text-align: center;
-    text-decoration: none;
-    color: #e6e6e6;
-}
-.social li{
-    cursor: pointer;
-    border-radius: 3px;
-    height: 24px;
-    width: 24px;
-    float: left;
-    padding: 10px 0px 0px 10px;
-    margin: 5px 30px 15px 0px;
-    list-style-type: none;
-}
-.social-instagram {
-    background-image: url("../Images/Logo/glyphicons-social-33-instagram.png");
-    background-repeat: no-repeat;
-}
-li.social-instagram:hover {
-    background-color: #fbad50;
-    }
-.social-pinterest {
-    background-image: url("../Images/Logo/glyphicons-social-1-pinterest.png" );
-    background-repeat: no-repeat;
-}
-li.social-pinterest:hover {
-    background-color: rgb(189, 8, 28);
-}
-.social-deviant {
-    background-image: url("../Images/Logo/glyphicons-social-16-deviantart.png" );
-    background-repeat: no-repeat;
 
+.lead {
+    margin: 2px;
+    margin-top: 45px;
 }
-li.social-deviant:hover {
-    background-color: #05cc47;
-}
-.social-facebook {
-    background-image: url("../Images/Logo/glyphicons-social-31-facebook.png" );
-    background-repeat: no-repeat;
 
+.submit-button {
+    color: black;
+    background-color: #d3cfc6;;
+    border-color: goldenrod;
+    position: relative;
 }
-li.social-facebook:hover {
-    background-color: #3B5998;
-}
-.social-twitter {
-    background-image: url("../Images/Logo/glyphicons-social-32-twitter.png" );
-    background-repeat: no-repeat;
 
+.submit-button:hover {
+    background: #d3cfd6;
+    background-color: rgba(0,0,0,0.1);;
+    border-color: goldenrod;
+    color: black;
 }
-li.social-twitter:hover {
-    background-color: #326ada;
-}
-.social-linkedin {
-    background-image: url("../Images/Logo/glyphicons-social-18-linked-in.png" );
-    background-repeat: no-repeat;
-    width: 24px;
-    height:24px;
 
+.selectpicker {
+    color: black;
+    background-color: rgba(0,0,0,0.1);
+    width: 220px;
+    display: block;
 }
-li.social-linkedin:hover {
-    background-color: #0077b5;
+.selectpicker:focus {
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.1);
+    width: 220px;
+    display: block;
 }
-.links-to-art {
-    margin-left: 10%;
+
+.form-control {
+    color: black;
+    background-color: rgba(0,0,0,0.1);
+    width: 220px;
 }
-.copyright {
-    background-color: black;
-    text-align: center;
-    color: #9d9d9d;
+
+.form-control:focus {
+    color: whitesmoke;
+    border-color: goldenrod;
+}
+.input-webkit-autofill {
+    background-color: rgba(0,0,0,0.1);
 }
