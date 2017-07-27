@@ -77,7 +77,7 @@
           [
               {
               url: '../Images/Commissions/by_sicilianvalkyrie:15.jpg',
-              desc: '',
+              desc: 'hi ho',
               title: 'Could you Help Me (Night)',
               client: '"Ulstermuse" (Deviantart)',
               testimonial: 'she\'\s great!!'
@@ -86,7 +86,7 @@
               url: '../Images/Commissions/by_sicilianvalkyrie:15b.jpg',
               desc: '',
               title: 'Could you Help Me',
-              client: '"Ulstermuse" (Deviantart)',
+              client: 'Ulstermuse Deviant Art)',
               testimonial: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
               },
               {
@@ -392,12 +392,6 @@
               }
           ]
 
-      $scope.dataLoaded=true  ;
-
-      $scope.slickConfig = {
-        enabled: true,
-        draggable: false
-      }
+      $scope.dataLoaded=true;
     }
-
-    })();
+})();
