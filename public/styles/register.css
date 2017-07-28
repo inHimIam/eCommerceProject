@@ -33,16 +33,14 @@
 }
 
 .testimonial-carousel {
-    border: 5px solid blue;
 }
 
 .carousel-wrapper-outer {
-    border: 4px solid black;
     background: gray;
 }
 
 .carousel-wrapper {
-    border: 3px solid orange;
+    border: 3px solid goldenrod;
     border-bottom: none;
     border-top: none;
     /*margin: 0 30px;*/
@@ -70,6 +68,7 @@
 }
 
 .customer-image-container img{
+    filter:brightness(.7);
     margin: 0 auto;
     margin-top:12%;
     width: auto;
@@ -89,4 +88,3 @@
 .client-username {
 
 }
-
