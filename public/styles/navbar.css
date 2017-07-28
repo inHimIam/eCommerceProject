@@ -42,6 +42,7 @@
 }
 
 .artist-logo img{
+    opacity: .75;
     float: left;
     width: 85px;
     height: 64px;
@@ -49,7 +50,9 @@
     padding: 3px;
     padding-top: 0px;
 }
-
+.artist-logo img:hover {
+  opacity: 1;
+}
 .artist-name {
     font-size: 28px;
     font-family: cursive;
