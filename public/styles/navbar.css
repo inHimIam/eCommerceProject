@@ -52,6 +52,7 @@
 }
 .artist-logo img:hover {
   opacity: 1;
+  filter: brightness(2.0);
 }
 .artist-name {
     font-size: 28px;

@@ -23,6 +23,7 @@
 }
 
 .slick-list.draggable {
+  filter: brightness(1.5);
   background: url(../Images/Logo/LOGO-VALKYRIE-2.png);
   background-repeat: no-repeat;
   background-position: center;
