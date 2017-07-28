@@ -32,7 +32,12 @@
   top: 0px;
 }
 
-.featured-images img{
+.pinterest-pin {
+  display: inline;
+  float: right;
+}
+
+.theImage {
   position: relative;
   top:30px;
     max-width: 100%;
@@ -45,7 +50,6 @@
     padding: 8px;
     height: 550px;
 }
-
 /* moved code to slickAdjust appears to be working the same there as well may remove here
 .featured-images:hover img {
   -moz-transform: scale(1.1);

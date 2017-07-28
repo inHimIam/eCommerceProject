@@ -13,7 +13,7 @@
               variable-width=true
               center-mode=true
               center-padding="60px"
-              autoplay=true
+              autoplay=false
               speed=2500
               autoplaySpeed=2800>
                 <div class="featured-images center" ng-repeat="image in commissions">
@@ -23,7 +23,7 @@
                         description="image.desc">
                     </card-description>
                     <a href="{{ image.url }}">
-                        <img class="" ng-src="{{ image.url }}" alt="{{img.title}}"/>
+                        <img class="theImage" ng-src="{{ image.url }}" alt="{{img.title}}"/>
                     </a>
                 </div> <!-- end ng-repeat, end featured-images -->
             </slick> <!-- end slick carousel -->
@@ -74,7 +74,7 @@
     <div class="clients-container">
         <div class="testimonials">
         </div>
-    </div> <!-- end clients-container -->    
+    </div> <!-- end clients-container -->
 </section> <!-- end main-content -->
 
 <myfooter></myfooter>
