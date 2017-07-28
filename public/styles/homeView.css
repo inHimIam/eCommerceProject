@@ -39,14 +39,14 @@
 }
 
 .theImage {
-    filter:brightness(.70);
+    filter:brightness(.65);
     position: relative;
     top:30px;
     max-width: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     border-radius: 8px;
     background: black;
     padding: 8px;
