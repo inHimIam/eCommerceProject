@@ -16,14 +16,16 @@
 <!--will link art example url/s for selected art type to populate base price in designated field-->
       <div class="form-group">
         <label for="ArtType">Art Type</label>
-        <select type="text" class="form-control" placeholder="Select an Art Type" ng-model="vm.newCommission.ArtType" class="selectpicker" required>
-          <option>Portrait Sketch Monochrome</option>
-          <option>Portrait Sketch Flat</option>
-          <option>Line Art</option>
-          <option>Inked Sketch + Monochrome Texture/Shadow</option>
-          <option>Cartoon Color</option>
-          <option>Full Color CGI</option>
-        </select>
+        <div style="border:none;">
+          <select type="text" class="form-control" placeholder="Select an Art Type" ng-model="vm.newCommission.ArtType" class="selectpicker" required>
+            <option>Portrait Sketch Monochrome</option>
+            <option>Portrait Sketch Flat</option>
+            <option>Line Art</option>
+            <option>Inked Sketch + Monochrome Texture/Shadow</option>
+            <option>Cartoon Color</option>
+            <option>Full Color CGI</option>
+          </select>
+      </div>
       </div> <!-- end form-group 1 -->
       <div class="form-group">
         <!--will change price field and populate an example url of an artwork-->
@@ -52,7 +54,7 @@
     </form> <!-- end form ng-submit -->
       <h2 class="contact">Feel free to contact me with any additional details <a href="">jcbn@yahoo.com</a></h2>
 
-  </div> <!-- end customer-form --> 
+  </div> <!-- end customer-form -->
   <div class="criteria-example">
     <p style="text-align: center; margin-top: 10px">the image below will populate the Artwork examples based upon selected criteria to the left</p>
     <!--this field will populate the Artwork examples based upon selected criteria above-->

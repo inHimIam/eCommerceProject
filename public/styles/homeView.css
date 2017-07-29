@@ -23,14 +23,14 @@
 }
 
 .slick-list.draggable {
-  filter: brightness(1.5);
-  background: url(../Images/Logo/LOGO-VALKYRIE-2.png);
-  background-repeat: no-repeat;
+  /*filter: brightness(1.5);
+  background: url(../Images/Logo/LOGO-VALKYRIE-2.png);*/
+  /*background-repeat: no-repeat;
   background-position: center;
   background-position-y: -80px;
   background-position-x: 48%;
   background-size: 925px 815px;
-  top: 0px;
+  top: 0px;*/
 }
 
 .pinterest-pin {
@@ -39,7 +39,7 @@
 }
 
 .theImage {
-    filter:brightness(.65);
+    filter:brightness(.5);
     position: relative;
     top:30px;
     max-width: 100%;

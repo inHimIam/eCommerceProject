@@ -7,6 +7,7 @@
     position: relative;
     float: left;
     width: 30%;
+    height: 691px;
     background: #787B85;
     background-color: rgba(0,0,0,0.5);
 }
@@ -47,12 +48,12 @@
 }
 
 .slick-list.draggable {
-    background: url(../Images/Logo/LOGO-VALKYRIE-2.png);
+    /*background: url(../Images/Logo/LOGO-VALKYRIE-2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: -70px;
     background-size: 900px 700px;
-    top: 0px;
+    top: 0px;*/
 }
 
 .slick-list {
