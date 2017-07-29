@@ -39,7 +39,7 @@
 }
 
 .theImage {
-    filter:brightness(.5);
+    /*filter:brightness(.5);*/
     position: relative;
     top:30px;
     max-width: 100%;
@@ -49,7 +49,7 @@
     margin: 0 auto;
     border-radius: 8px;
     background: black;
-    padding: 8px;
+    padding: 0px;
     height: 550px;
 }
 /* moved code to slickAdjust appears to be working the same there as well may remove here
