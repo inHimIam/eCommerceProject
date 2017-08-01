@@ -6,17 +6,18 @@
     <div class="my-carousel">
         <div class="slick-container">
             <slick
+            dots="true"
               arrows="false"
               data="dataLoaded"
               ng-if="dataLoaded"
               init-onload="true"
               slides-to-show=1
-              variable-width=true
-              center-mode=true
+              variable-width="true"
+              center-mode="true"
               center-padding="60px"
-              autoplay=true
-              speed=2500
-              autoplaySpeed=2800>
+              autoplay="true"
+              speed="2500"
+              autoplaySpeed="2800">
                 <div class="featured-images center" ng-repeat="image in commissions">
                     <card-description
                         image="image"
@@ -34,17 +35,18 @@
     <div class="my-carousel">
         <div class="slick-container">
             <slick
+              dots="true"
               arrows="false"
               ng-if="dataLoaded"
               init-onload="false"
               data="dataLoaded"
               slides-to-show=1
-              variable-width=true
-              center-mode=true
+              variable-width="true"
+              center-mode="true"
               center-padding="60px"
-              autoplay=true
-              speed=2500
-              autoplaySpeed=2900>
+              autoplay="true"
+              speed="2500"
+              autoplaySpeed="2900">
                 <div class="featured-images center" ng-repeat="image in personal_art">
                     <card-description
                         image="image"
