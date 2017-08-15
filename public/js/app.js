@@ -1,5 +1,5 @@
 (function () {
-  angular.module('artistApp', ['ngRoute', 'slickCarousel']);
+  angular.module('artistApp', ['ngRoute', 'slickCarousel', 'angulike']);
 
   function config ($routeProvider, $locationProvider) {
     $locationProvider.hashPrefix('');

@@ -22,6 +22,7 @@
     background-color: rgba(200,200,195,0.45);
 }
 
+/* logo for carousel background
 .slick-list.draggable {
   /*filter: brightness(1.5);
   background: url(../Images/Logo/LOGO-VALKYRIE-2.png);*/
@@ -52,12 +53,6 @@
     padding: 0px;
     height: 550px;
 }
-/* moved code to slickAdjust appears to be working the same there as well may remove here
-.featured-images:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}*/
 
 .desc-container {
     position: relative;

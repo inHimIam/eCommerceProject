@@ -24,6 +24,7 @@
 }
 .selectpicker:focus {
   border-color: goldenrod;
+  box-shadow: none;
     color: whitesmoke;
     background-color: rgba(0,0,0,0.1);
     width: 220px;
@@ -46,6 +47,7 @@
     background-color: rgba(0,0,0,0.1);
 }
 .customer-form {
+    text-align: webkit-center;
     display: inline-block;
     width: 30%;
 }
