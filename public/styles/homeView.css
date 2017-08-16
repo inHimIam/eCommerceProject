@@ -31,13 +31,9 @@
   background-position-y: -80px;
   background-position-x: 48%;
   background-size: 925px 815px;
-  top: 0px;*/
-}
+  top: 0px;
+}*/
 
-.pinterest-pin {
-  display: inline;
-  float: right;
-}
 
 .theImage {
     /*filter:brightness(.5);*/
@@ -66,6 +62,11 @@
 .title {
     background: #d3cfc6;
     background-color: transparent 2;
+}
+
+.pinterest-pin {
+  display: inline;
+  float: right !important;
 }
 
 .desc-button {
